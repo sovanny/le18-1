@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="">
+    <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="633">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -34,6 +35,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\&lt;\!DOCTYPE html\&gt;\n\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n    \&lt;meta charset\=\&quot;UTF\-8\&quot;\&gt;\n    \&lt;title\&gt;Location East 2018\&lt;\/title\&gt;\n    \&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;https\:\/\/maxcdn\.bootstrapcdn\.com\/bootstrap\/4\.0\.0\-alpha\.6\/css\/bootstrap\.min\.css\&quot; integrity\=\&quot;sha384\-rwoIResjU2yc3z8GV\/NPeZWAv56rSmLldC3R\/AZzGRnGxQQKnKkoFVhFQhNUwEyJ\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\n    \&lt;script src\=\&quot;https\:\/\/code\.jquery\.com\/jquery\-3\.2\.1\.slim\.min\.js\&quot; integrity\=\&quot;sha256\-k2WSCIexGzOj3Euiig\+TlR8gA0EmPjuc79OEeY5L45g\=\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\&lt;\/script\&gt;\n    \&lt;script src\=\&quot;https\:\/\/npmcdn\.com\/tether\@1\.2\.4\/dist\/js\/tether\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n    \&lt;script src\=\&quot;https\:\/\/maxcdn\.bootstrapcdn\.com\/bootstrap\/4\.0\.0\-alpha\.6\/js\/bootstrap\.min\.js\&quot; integrity\=\&quot;sha384\-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk\+02D9phzyeVkE\+jo0ieGizqPLForn\&quot; crossorigin\=\&quot;anonymous\&quot;\&gt;\&lt;\/script\&gt;\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n\&lt;\!\-\- NAVBAR \-\-\&gt;\n\&lt;nav class\=\&quot;navbar navbar\-toggleable\-md navbar\-inverse bg\-inverse fixed\-top\&quot;\&gt;\n    \&lt;button class\=\&quot;navbar\-toggler navbar\-toggler\-right\&quot; type\=\&quot;button\&quot; data\-toggle\=\&quot;collapse\&quot; data\-target\=\&quot;\#navbarsExampleDefault\&quot; aria\-controls\=\&quot;navbarsExampleDefault\&quot; aria\-expanded\=\&quot;false\&quot; aria\-label\=\&quot;Toggle navigation\&quot;\&gt;\n        \&lt;span class\=\&quot;navbar\-toggler\-icon\&quot;\&gt;\&lt;\/span\&gt;\n    \&lt;\/button\&gt;\n    \&lt;div id\=\&quot;centered\-nav\-items\&quot;\&gt;\n    \&lt;div class\=\&quot;collapse navbar\-collapse\&quot; id\=\&quot;navbarsExampleDefault\&quot;\&gt;\n        \&lt;ul class\=\&quot;navbar\-nav mr\-auto\&quot;\&gt;\n            \&lt;\!\-\- LINE\-UP \-\-\&gt;\n            \&lt;li class\=\&quot;nav\-item dropdown\&quot;\&gt;\n                \&lt;a class\=\&quot;nav\-link dropdown\-toggle\&quot; href\=\&quot;http\:\/\/example\.com\&quot; id\=\&quot;dropdown01\&quot; data\-toggle\=\&quot;dropdown\&quot; aria\-haspopup\=\&quot;true\&quot; aria\-expanded\=\&quot;false\&quot;\&gt;Line\-up\&lt;\/a\&gt;\n                \&lt;div class\=\&quot;dropdown\-menu\&quot; aria\-labelledby\=\&quot;dropdown01\&quot;\&gt;\n                    \&lt;a class\=\&quot;dropdown\-item\&quot; href\=\&quot;\#\&quot;\&gt;2018\&lt;\/a\&gt;\n                    \&lt;a class\=\&quot;dropdown\-item\&quot; href\=\&quot;\#\&quot;\&gt;2017\&lt;\/a\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/li\&gt;\n            \&lt;\!\-\- BILJETTER \-\-\&gt;\n            \&lt;li class\=\&quot;nav\-item\&quot;\&gt;\n                \&lt;a class\=\&quot;nav\-link\&quot; href\=\&quot;\#\&quot;\&gt;Biljetter\&lt;\/a\&gt;\n            \&lt;\/li\&gt;\n            \&lt;\!\-\- LOGGA \-\-\&gt;\n            \&lt;a class\=\&quot;navbar\-brand\&quot; href\=\&quot;\#\&quot;\&gt;Logga\&lt;\/a\&gt;\n            \&lt;\!\-\- NAVBAR \-\-\&gt;\n            \&lt;li class\=\&quot;nav\-item\&quot;\&gt;\n                \&lt;a class\=\&quot;nav\-link\&quot; href\=\&quot;\#\&quot;\&gt;Partners\&lt;\/a\&gt;\n            \&lt;\/li\&gt;\n            \&lt;\!\-\- Info \-\-\&gt;\n            \&lt;li class\=\&quot;nav\-item\&quot;\&gt;\n                \&lt;a class\=\&quot;nav\-link\&quot; href\=\&quot;\#\&quot;\&gt;Info\&lt;\/a\&gt;\n            \&lt;\/li\&gt;\n        \&lt;\/ul\&gt;\n    \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n\&lt;\/nav\&gt;\n\nHär är en sida\!\nEN ändring\n\&lt;\/body\&gt;\n\&lt;\/html\&gt;</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516252147882</updated>
-      <workItem from="1516252149490" duration="1034000" />
+      <workItem from="1516252149490" duration="6106000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1516264873550</created>
@@ -124,19 +130,27 @@
       <option name="project" value="LOCAL" />
       <updated>1516264873550</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1516264908679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516264908679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1034000" />
+    <option name="totallyTimeSpent" value="6106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973986" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -147,7 +161,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -169,8 +182,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="633">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding />
         </state>
       </provider>
