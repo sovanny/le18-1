@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/my-navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/load-navbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/line-up-17.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/line-up.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partners.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tickets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/FAK.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/fb-bild.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo-vit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/nai-palm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pin-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pin-vit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sza.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/my-navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/my-navbar.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -240,7 +240,7 @@
       <option name="presentableId" value="Default" />
       <updated>1516252147882</updated>
       <workItem from="1516252149490" duration="13470000" />
-      <workItem from="1516339333448" duration="9080000" />
+      <workItem from="1516339333448" duration="9178000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1516264873550</created>
@@ -263,17 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1516286041782</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="made navbar prettier and added carousel on first page">
+      <created>1516355464814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516355464814</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22550000" />
+    <option name="totallyTimeSpent" value="22648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32661718" sideWeight="0.525" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32661718" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
@@ -300,7 +306,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="made navbar prettier and added carousel on first page" />
+    <option name="LAST_COMMIT_MESSAGE" value="made navbar prettier and added carousel on first page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

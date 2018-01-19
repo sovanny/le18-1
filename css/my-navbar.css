@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+#desktop-logo {
+  display: none; }
+
+/*************DESKTOP LAYOUT*************/
+@media (min-width: 768px) {
+  #mobile-logo {
+    display: none; }
+
+  #desktop-logo {
+    display: inherit; }
+
+  .nav-item {
+    width: 100px; }
+    .nav-item .nav-link {
+      text-align: center; } }
+.navbar-brand {
+  margin: 0 2rem 0 2rem; }
+  .navbar-brand img {
+    height: 2rem; }
+
+.nav-link {
+  text-align: right; }
+
+.navbar-nav > li > a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white; }
+
+nav {
+  background-image: url("../img/fb-bild.jpg");
+  background-size: cover; }
+
+/*# sourceMappingURL=my-navbar.css.map */
