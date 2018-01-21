@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
 #desktop-logo {
   display: none; }
 
+#navbar-placeholder {
+  height: 56px; }
+
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {
+  #navbar-placeholder {
+    height: 64px; }
+
   #mobile-logo {
     display: none; }
 
@@ -13,20 +20,27 @@
   .nav-item {
     width: 100px; }
     .nav-item .nav-link {
-      text-align: center; } }
+      text-align: center; }
+
+  #desktop-logo {
+    height: 3rem; } }
+#mobile-logo {
+  height: 40px; }
+
 .navbar-brand {
   margin: 0 2rem 0 2rem; }
   .navbar-brand img {
-    height: 2rem; }
+    max-width: 100%;
+    max-height: 100%; }
 
 .nav-link {
   text-align: right; }
 
 .navbar-nav > li > a {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: white; }
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 1.1rem; }
 
 nav {
   background-image: url("../img/fb-bild.jpg");

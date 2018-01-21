@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,600');
 
-$font: 'Roboto', sans-serif;
+$font: 'Poppins', sans-serif;
+$weight: 600;
 $primary-color: white;
+$size: 1.1rem;
 
 #desktop-logo{
   display: none;
 }
 
+#navbar-placeholder{
+  height: 56px;   //gör om till rem!!
+}
+
+
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+  #navbar-placeholder{
+    height: 64px; //gör om till rem!!
+  }
   #mobile-logo{
-    display: none; //visible on mobile
+    display: none;
   }
   #desktop-logo{
     display: inherit;
@@ -23,17 +34,25 @@ $primary-color: white;
 
     }
   }
+  #desktop-logo{
+    height: 3rem;
+  }
 }
 
 
+#mobile-logo{
+  height: 40px;
+}
 
 .navbar-brand{
-  img{
-    height: 2rem;
-
-  }
   margin: 0 2rem 0 2rem;
+  img{
+    max-width:100%;
+    max-height:100%;
+  }
 }
+
+
 .nav-link{
   text-align: right;
 
@@ -41,9 +60,9 @@ $primary-color: white;
 
 .navbar-nav > li >a{
   font-family: $font;
-  font-weight: 500;
-  text-transform: uppercase;
+  font-weight: $weight;
   color: $primary-color;
+  font-size: $size;
 }
 
 
