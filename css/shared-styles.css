@@ -49,6 +49,11 @@ nav {
       text-align: center; }
 
   #desktop-logo {
-    height: 3rem; } }
+    height: 3rem; }
+
+  .navbar-nav .dropdown-menu {
+    text-align: inherit;
+    width: inherit;
+    float: inherit; } }
 
 /*# sourceMappingURL=shared-styles.css.map */

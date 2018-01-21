@@ -70,5 +70,11 @@ nav {
   #desktop-logo {
     height: 3rem;
   }
+
+  .navbar-nav .dropdown-menu{
+    text-align: inherit;
+    width: inherit;
+    float: inherit;
+  }
 }
 
