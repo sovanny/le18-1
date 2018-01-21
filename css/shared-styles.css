@@ -27,6 +27,11 @@ nav {
   background-image: url("../img/fb-bild.jpg");
   background-size: cover; }
 
+.navbar-nav .dropdown-menu {
+  text-align: right;
+  width: 6rem;
+  float: right; }
+
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {
   #navbar-placeholder {

@@ -43,6 +43,12 @@ nav {
 
 }
 
+.navbar-nav .dropdown-menu{
+  text-align: right;
+  width: 6rem;
+  float: right;
+}
+
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
