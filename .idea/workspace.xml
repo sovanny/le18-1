@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/partners.scss" afterPath="$PROJECT_DIR$/css/partners.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partners.html" afterPath="$PROJECT_DIR$/partners.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -113,8 +113,8 @@
       <file leaf-file-name="partners.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partners.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="660">
+              <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -160,8 +160,8 @@
         <option value="$PROJECT_DIR$/info.html" />
         <option value="$PROJECT_DIR$/line-up.html" />
         <option value="$PROJECT_DIR$/line-up-17.html" />
-        <option value="$PROJECT_DIR$/partners.html" />
         <option value="$PROJECT_DIR$/css/partners.scss" />
+        <option value="$PROJECT_DIR$/partners.html" />
       </list>
     </option>
   </component>
@@ -266,7 +266,7 @@
       <option name="presentableId" value="Default" />
       <updated>1516252147882</updated>
       <workItem from="1516252149490" duration="13470000" />
-      <workItem from="1516339333448" duration="28852000" />
+      <workItem from="1516339333448" duration="28939000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1516264873550</created>
@@ -345,11 +345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516620884928</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sponsors">
+      <created>1516620933822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1516620933822</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42322000" />
+    <option name="totallyTimeSpent" value="42409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -606,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partners.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="660">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>
