@@ -90,7 +90,11 @@ figure:hover p.description {
   opacity: 1; }
 figure:hover img {
   transition: opacity .6s;
-  opacity: 0.6; }
+  opacity: 0.6;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translateY(-3.75em);
+  transform: translateY(-3.75em); }
 figure:hover figcaption, figure:hover h2, figure:hover p.icon-links a {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
