@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
+h1 {
+  font-family: "Roboto", monospace;
+  font-weight: 700; }
+
+h3 {
+  font-family: "Roboto", monospace;
+  font-weight: 500; }
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300; }
+
+/*# sourceMappingURL=info.css.map */
