@@ -3,6 +3,7 @@
 
 $font-description: 'Roboto', monospace;
 $font-caption: 'Poppins', sans-serif;
+$caption-color: #0E664E;
 
 
 
@@ -70,7 +71,7 @@ figure{
     bottom: 0;
     padding: 1em;
     height: 3.75em;
-    color: #3c4a50;
+    color: #1F3437;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     -webkit-transform: translate3d(0,100%,0);
@@ -82,7 +83,7 @@ figure{
   }
   p.icon-links a {
     float: right;
-    color: #3c4a50;
+    color: #0E664E;
     font-size: 1.4em;
   }
   p.description {
