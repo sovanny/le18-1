@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/partners.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/partners.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/line-up-17.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -236,6 +235,12 @@
               <item name="le18-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="le18-1" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="line-up-17.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="le18-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="le18-1" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="partners.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
@@ -292,7 +297,7 @@
       <updated>1516252147882</updated>
       <workItem from="1516252149490" duration="13470000" />
       <workItem from="1516339333448" duration="44490000" />
-      <workItem from="1516858846855" duration="7711000" />
+      <workItem from="1516858846855" duration="7815000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1516264873550</created>
@@ -427,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516865866398</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="..add files">
+      <created>1516866874147</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1516866874147</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65671000" />
+    <option name="totallyTimeSpent" value="65775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
