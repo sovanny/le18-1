@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+#sponsors {
+  max-width: 600px; }
+  #sponsors img {
+    max-width: 80%; }
+  #sponsors .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  #sponsors h1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: "Roboto", monospace;
+    font-weight: 700; }
+
+/*# sourceMappingURL=partners.css.map */
