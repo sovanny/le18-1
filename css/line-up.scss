@@ -5,17 +5,23 @@ $font-description: 'Roboto', monospace;
 $font-caption: 'Poppins', sans-serif;
 $caption-color: #0E664E;
 
-
+body{
+  background: #f7f7f7;
+}
 
 .container{
-  padding-top: 4px;
+
+  padding: 8px;
+  outline: 80px solid white;
+  outline: 80px solid white;
+  background: white;
 }
 
 figure {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 1px;
+  margin: 4px;
   background: #3085a3;
   text-align: center;
   cursor: pointer;

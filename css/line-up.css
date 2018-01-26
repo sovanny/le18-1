@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+body {
+  background: #f7f7f7; }
+
 .container {
-  padding-top: 4px; }
+  padding: 8px;
+  outline: 80px solid white;
+  outline: 80px solid white;
+  background: white; }
 
 figure {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 1px;
+  margin: 4px;
   background: #3085a3;
   text-align: center;
   cursor: pointer; }
