@@ -5,16 +5,30 @@ $font-description: 'Roboto', monospace;
 $font-caption: 'Poppins', sans-serif;
 $caption-color: #0E664E;
 
-body{
+body {
   background: #f7f7f7;
 }
 
-.container{
+.container {
 
   padding: 4px;
   outline: 30px solid white;
   outline: 30px solid white;
   background: white;
+
+}
+
+#logo-bottom {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  max-width: 20%;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+
+  }
 }
 
 figure {
@@ -53,7 +67,7 @@ figure {
     height: 100%;
   }
   h2 {
-    font-family: $font-caption ;
+    font-family: $font-caption;
     font-weight: 300;
   }
   h2,
@@ -66,12 +80,11 @@ figure {
   }
 }
 
-
 /*---------------*/
 /***** Effect *****/
 /*---------------*/
 
-figure{
+figure {
   figcaption {
     top: auto;
     bottom: 0;
@@ -80,8 +93,8 @@ figure{
     color: #1F3437;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
-    -webkit-transform: translate3d(0,100%,0);
-    transform: translate3d(0,100%,0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
   h2 {
     float: left;
@@ -109,8 +122,8 @@ figure{
   p.icon-links a {
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
-    -webkit-transform: translate3d(0,200%,0);
-    transform: translate3d(0,200%,0);
+    -webkit-transform: translate3d(0, 200%, 0);
+    transform: translate3d(0, 200%, 0);
   }
   p.icon-links a {
     display: inline-block;
@@ -122,7 +135,7 @@ figure{
     color: #A0D1BB;
   }
 
-  &:hover p.description{
+  &:hover p.description {
     opacity: 1;
   }
   &:hover img {
@@ -138,8 +151,8 @@ figure{
   &:hover figcaption,
   &:hover h2,
   &:hover p.icon-links a {
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   &:hover h2 {
@@ -163,7 +176,6 @@ figure{
   }
 
 }
-
 
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
