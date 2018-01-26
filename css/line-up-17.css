@@ -1,6 +1,24 @@
+body {
+  background: #f7f7f7; }
+
+.container {
+  padding: 4px;
+  outline: 30px solid white;
+  outline: 30px solid white;
+  background: white; }
+
 #poster-17 {
   margin: 15px;
   max-width: 100%;
   max-height: 90vh; }
+
+#logo-bottom {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  max-width: 20%; }
+  #logo-bottom img {
+    max-width: 100%;
+    max-height: 100%; }
 
 /*# sourceMappingURL=line-up-17.css.map */
