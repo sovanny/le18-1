@@ -4,16 +4,16 @@ body {
   background: #f7f7f7; }
 
 .container {
-  padding: 8px;
+  padding: 4px;
   outline: 80px solid white;
-  outline: 80px solid white;
+  outline: 30px solid white;
   background: white; }
 
 figure {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 4px;
+  margin: 1px;
   background: #3085a3;
   text-align: center;
   cursor: pointer; }
