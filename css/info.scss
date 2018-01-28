@@ -4,7 +4,26 @@
 $poppins: 'Poppins', sans-serif;
 $robotomono: 'Roboto', monospace;
 
+
+body {
+  background: #f7f7f7;
+
+}
+
+.container {
+
+  padding: 40px 200px 4px 200px;
+  outline: 30px solid white;
+  outline: 30px solid white;
+  background: white;
+
+}
+
 h1{
+  font-family: $robotomono;
+  font-weight: 700;
+}
+h2{
   font-family: $robotomono;
   font-weight: 700;
 }
@@ -18,3 +37,16 @@ p{
   font-weight: 300;
 }
 
+
+#logo-bottom {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  max-width: 10vw;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+}

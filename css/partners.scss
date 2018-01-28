@@ -9,7 +9,7 @@ body {
 
 .container {
 
-  padding: 4px;
+  padding: 4px 40px 4px 40px;
   outline: 30px solid white;
   outline: 30px solid white;
   background: white;
@@ -22,6 +22,8 @@ body {
 
   img{
     max-width: 80%;
+    margin: auto;
+    display: block;
 
   }
   .col-md-3{
@@ -44,8 +46,7 @@ body {
 #logo-bottom {
   margin: auto;
   margin-top: 100px;
-
-  max-width: 20%;
+  max-width: 10vw;
 
   img {
     max-width: 100%;

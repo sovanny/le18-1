@@ -7,7 +7,7 @@ $caption-color: #0E664E;
 
 body {
   background: #f7f7f7;
-  
+
 }
 
 .container {
@@ -19,25 +19,97 @@ body {
 
 }
 
+#title-line-up {
+  h1 {
+    font-size: 6rem;
+  }
+  text-align: center;
+}
+
 #logo-bottom {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 50px;
-  max-width: 20%;
+  max-width: 25vw;
 
   img {
     max-width: 100%;
     max-height: 100%;
-
   }
+}
+
+.col-md-4{
+  border: 1px solid white;
+}
+
+.artist-1 {
+  background: url("../img/Instagram-rutor-1.jpg");
+  background-size: contain;
+
+}
+
+.artist-2 {
+
+  background: url("../img/Instagram-rutor-2.jpg");
+  background-size: contain;
+}
+
+.artist-3 {
+  background: url("../img/Instagram-rutor-3.jpg");
+  background-size: contain;
+}
+
+.artist-4 {
+  background: url("../img/Instagram-rutor-4.jpg");
+  background-size: contain;
+}
+
+.artist-5 {
+  background: url("../img/Instagram-rutor-5.jpg");
+  background-size: contain;
+}
+
+.artist-6 {
+  background: url("../img/Instagram-rutor-6.jpg");
+  background-size: contain;
+}
+
+.artist-7 {
+  background: url("../img/Instagram-rutor-7.jpg");
+  background-size: contain;
+}
+
+.artist-8 {
+  background: url("../img/Instagram-rutor-8.jpg");
+  background-size: contain;
+}
+
+.artist-9 {
+  background: url("../img/Instagram-rutor-9.jpg");
+  background-size: contain;
+}
+
+.artist-10 {
+  background: url("../img/Instagram-rutor-10.jpg");
+  background-size: contain;
+}
+
+.artist-11 {
+  background: url("../img/Instagram-rutor-11.jpg");
+  background-size: contain;
+}
+
+.artist-12 {
+  background: url("../img/Instagram-rutor-12.jpg");
+  background-size: contain;
 }
 
 figure {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 1px;
-  background: #3085a3;
+  margin-bottom: 0;
+
   text-align: center;
   cursor: pointer;
   img {
@@ -58,6 +130,7 @@ figure {
     &::before,
     figure figcaption::after {
       pointer-events: none;
+
     }
 
   }
@@ -182,7 +255,9 @@ figure {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   figure p.icon-links a {
-
     padding: 5px 10px;
+  }
+  #logo-bottom {
+    max-width: 10vw;
   }
 }
