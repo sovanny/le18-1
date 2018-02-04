@@ -12,7 +12,12 @@ body {
 #title-line-up {
   text-align: center; }
   #title-line-up h1 {
-    font-size: 6rem; }
+    font-size: 3rem;
+    color: white;
+    font-family: "Roboto", monospace;
+    font-weight: 700;
+    background: #1e3437;
+    display: inline-block; }
 
 #logo-bottom {
   margin: auto;
@@ -187,6 +192,9 @@ figure:hover p.icon-links a:first-child {
     padding: 5px 10px; }
 
   #logo-bottom {
-    max-width: 10vw; } }
+    max-width: 10vw; }
+
+  #title-line-up h1 {
+    font-size: 6rem; } }
 
 /*# sourceMappingURL=line-up.css.map */

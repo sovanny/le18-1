@@ -21,7 +21,12 @@ body {
 
 #title-line-up {
   h1 {
-    font-size: 6rem;
+    font-size: 3rem;
+    color: white;
+    font-family: $font-description;
+    font-weight: 700;
+    background: #1e3437;
+    display: inline-block;
   }
   text-align: center;
 }
@@ -259,5 +264,11 @@ figure {
   }
   #logo-bottom {
     max-width: 10vw;
+  }
+
+  #title-line-up {
+    h1 {
+      font-size: 6rem;
+    }
   }
 }

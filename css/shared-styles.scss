@@ -2,28 +2,37 @@
 
 $font: 'Poppins', sans-serif;
 $weight: 600;
-$primary-color: white;
+$primary-color: black;
 $size: 1.1rem;
+$nav-height: 2.8rem;
 
 #desktop-logo {
   display: none;
 }
 
 #navbar-placeholder {
-  height: 56px; //gör om till rem!!
+  height: $nav-height;
 }
 
-#mobile-logo {
-  height: 40px;
-}
+.navbar {
 
+  min-height: $nav-height;
+  padding: 0 0.5rem 0 0.5rem;
+
+  background: white;
+}
 .navbar-brand {
-  margin: 0 2rem 0 2rem;
+  padding: 5px;
+  margin: 0;
+  height: $nav-height;
+
+
   img {
     max-width: 100%;
     max-height: 100%;
   }
 }
+
 
 .nav-link {
   text-align: right;
@@ -31,35 +40,34 @@ $size: 1.1rem;
 }
 
 .navbar-nav > li > a {
+  text-transform: uppercase;
   font-family: $font;
   font-weight: $weight;
   color: $primary-color;
   font-size: $size;
-}
-
-nav {
-  background-image: url("../img/fb-bild.jpg");
-  background-size: cover;
 
 }
 
-.navbar-nav .dropdown-menu{
+.navbar-nav .dropdown-menu {
   text-align: right;
   width: 6rem;
   float: right;
+  border: none;
+  a{
+    font-weight: 600;
+  }
 }
 
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  #navbar-placeholder {
-    height: 64px; //gör om till rem!!
-  }
   #mobile-logo {
     display: none;
   }
   #desktop-logo {
     display: inherit;
+
+    padding: 3px 1.8rem 3px 1.8rem;
   }
   .nav-item {
     width: 100px;
@@ -67,14 +75,12 @@ nav {
       text-align: center;
     }
   }
-  #desktop-logo {
-    height: 3rem;
-  }
 
-  .navbar-nav .dropdown-menu{
+  .navbar-nav .dropdown-menu {
     text-align: inherit;
     width: inherit;
     float: inherit;
+
   }
 }
 
