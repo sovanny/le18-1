@@ -25,10 +25,10 @@ p {
   font-weight: 300; }
 
 #logo-bottom {
+  max-width: 25vw;
   margin: auto;
   margin-top: 100px;
-  margin-bottom: 50px;
-  max-width: 10vw; }
+  margin-bottom: 50px; }
   #logo-bottom img {
     max-width: 100%;
     max-height: 100%; }
@@ -36,6 +36,9 @@ p {
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {
   .container {
-    padding: 40px 200px 4px 200px; } }
+    padding: 40px 200px 4px 200px; }
+
+  #logo-bottom {
+    max-width: 10vw; } }
 
 /*# sourceMappingURL=info.css.map */

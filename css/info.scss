@@ -38,10 +38,11 @@ p{
 
 
 #logo-bottom {
+  max-width: 25vw;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 50px;
-  max-width: 10vw;
+
 
   img {
     max-width: 100%;
@@ -58,4 +59,7 @@ p{
     padding: 40px 200px 4px 200px;
   }
 
+  #logo-bottom {
+    max-width: 10vw;
+  }
 }
