@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,600');
+@import "variables";
 
-$font: 'Poppins', sans-serif;
-$weight: 600;
-$primary-color: black;
+$text-color: white;
 $size: 1.1rem;
 $nav-height: 2.8rem;
+
 
 #desktop-logo {
   display: none;
@@ -15,48 +14,61 @@ $nav-height: 2.8rem;
 }
 
 .navbar {
-
   min-height: $nav-height;
   padding: 0 0.5rem 0 0.5rem;
-
-  background: white;
+  background: $green-light;
 }
+
 .navbar-brand {
   padding: 5px;
   margin: 0;
   height: $nav-height;
-
-
   img {
     max-width: 100%;
     max-height: 100%;
   }
 }
 
-
 .nav-link {
   text-align: right;
-
 }
 
 .navbar-nav > li > a {
   text-transform: uppercase;
-  font-family: $font;
-  font-weight: $weight;
-  color: $primary-color;
+  font-family: $poppins;
+  font-weight: 600;
+  color: $text-color;
   font-size: $size;
-
+  &:hover{
+    color: $yellow;
+  }
 }
 
 .navbar-nav .dropdown-menu {
+  outline: 2px solid white;
   text-align: right;
   width: 6rem;
   float: right;
   border: none;
+  background-color: $green-light;
+  border-radius: 0;
   a{
     font-weight: 600;
+    color: $text-color;
+    &:focus{
+      background-color: transparent;
+      color: $yellow;
+    }
+    &:hover{
+      background-color: transparent;
+      color: $yellow;
+    }
+  }
+  .show{
+
   }
 }
+
 
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
@@ -66,7 +78,6 @@ $nav-height: 2.8rem;
   }
   #desktop-logo {
     display: inherit;
-
     padding: 3px 1.8rem 3px 1.8rem;
   }
   .nav-item {
@@ -75,12 +86,10 @@ $nav-height: 2.8rem;
       text-align: center;
     }
   }
-
   .navbar-nav .dropdown-menu {
     text-align: inherit;
     width: inherit;
     float: inherit;
-
   }
 }
 

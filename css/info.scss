@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700');
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,600');
-
-$poppins: 'Poppins', sans-serif;
-$robotomono: 'Roboto', monospace;
-
+@import "variables";
 
 body {
   background: #f7f7f7;
@@ -12,7 +7,6 @@ body {
 
 .container {
 
-  outline: 30px solid white;
   outline: 30px solid white;
   background: white;
 
@@ -34,6 +28,17 @@ h3{
 p{
   font-family: $poppins;
   font-weight: 300;
+}
+#contact-row{
+  width: 200px;
+  font-size: 3rem;
+  a{
+    color: $bluegreen-dark;
+    &:hover,
+    &:focus{
+      color: $pink;
+    }
+  }
 }
 
 

@@ -1,28 +1,35 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
 body {
   background: #f7f7f7; }
 
 .container {
   outline: 30px solid white;
-  outline: 30px solid white;
   background: white; }
 
 h1 {
-  font-family: "Roboto", monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700; }
 
 h2 {
-  font-family: "Roboto", monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 700; }
 
 h3 {
-  font-family: "Roboto", monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 500; }
 
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 300; }
+
+#contact-row {
+  width: 200px;
+  font-size: 3rem; }
+  #contact-row a {
+    color: #026666; }
+    #contact-row a:hover, #contact-row a:focus {
+      color: #fcdfd7; }
 
 #logo-bottom {
   max-width: 25vw;

@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
 body {
   background: #f7f7f7; }
 
 .container {
   padding: 4px;
-  outline: 30px solid white;
   outline: 30px solid white;
   background: white; }
 
@@ -14,7 +13,7 @@ body {
   #title-line-up h1 {
     font-size: 3rem;
     color: white;
-    font-family: "Roboto", monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: 700;
     background: #1e3437;
     display: inline-block; }
@@ -138,7 +137,7 @@ figure p.icon-links a {
   color: #0E664E;
   font-size: 1.4em; }
 figure p.description {
-  font-family: "Roboto", monospace;
+  font-family: "Roboto Mono", monospace;
   position: absolute;
   bottom: 8em;
   padding: 2em;

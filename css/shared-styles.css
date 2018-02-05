@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
 #desktop-logo {
   display: none; }
 
@@ -8,7 +9,7 @@
 .navbar {
   min-height: 2.8rem;
   padding: 0 0.5rem 0 0.5rem;
-  background: white; }
+  background: #9fd2ba; }
 
 .navbar-brand {
   padding: 5px;
@@ -25,16 +26,28 @@
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: black;
+  color: white;
   font-size: 1.1rem; }
+  .navbar-nav > li > a:hover {
+    color: #ffdc30; }
 
 .navbar-nav .dropdown-menu {
+  outline: 2px solid white;
   text-align: right;
   width: 6rem;
   float: right;
-  border: none; }
+  border: none;
+  background-color: #9fd2ba;
+  border-radius: 0; }
   .navbar-nav .dropdown-menu a {
-    font-weight: 600; }
+    font-weight: 600;
+    color: white; }
+    .navbar-nav .dropdown-menu a:focus {
+      background-color: transparent;
+      color: #ffdc30; }
+    .navbar-nav .dropdown-menu a:hover {
+      background-color: transparent;
+      color: #ffdc30; }
 
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {

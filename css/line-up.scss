@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700');
+@import "variables";
 
-$font-description: 'Roboto', monospace;
-$font-caption: 'Poppins', sans-serif;
-$caption-color: #0E664E;
+$caption-color: $bluegreen-darker;
 
 body {
   background: #f7f7f7;
@@ -14,7 +11,6 @@ body {
 
   padding: 4px;
   outline: 30px solid white;
-  outline: 30px solid white;
   background: white;
 
 }
@@ -23,7 +19,7 @@ body {
   h1 {
     font-size: 3rem;
     color: white;
-    font-family: $font-description;
+    font-family: $robotomono;
     font-weight: 700;
     background: #1e3437;
     display: inline-block;
@@ -146,7 +142,7 @@ figure {
     height: 100%;
   }
   h2 {
-    font-family: $font-caption;
+    font-family: $poppins;
     font-weight: 300;
   }
   h2,
@@ -185,7 +181,7 @@ figure {
     font-size: 1.4em;
   }
   p.description {
-    font-family: $font-description;
+    font-family: $robotomono;
     position: absolute;
     bottom: 8em;
     padding: 2em;
