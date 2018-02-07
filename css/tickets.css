@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+body {
+  background: #f7f7f7; }
+
+.container {
+  padding: 4px;
+  outline: 30px solid white;
+  background: white;
+  min-height: 70vh; }
+
+#title {
+  text-align: center;
+  margin-top: 3rem; }
+  #title h1 {
+    font-size: 3rem;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+    background: #1e3437;
+    display: inline-block; }
+
+#ticket-row {
+  margin: 100px; }
+
+#ticket-1 {
+  height: 300px;
+  width: 300px;
+  background: url("../img/Instagram-rutor-1.jpg"); }
+
+#ticket-2 {
+  height: 300px;
+  width: 300px;
+  background: url("../img/Instagram-rutor-2.jpg"); }
+
+#ticket-3 {
+  height: 300px;
+  width: 300px;
+  background: url("../img/Instagram-rutor-3.jpg"); }
+
+#logo-bottom {
+  margin: auto;
+  margin-top: 20vh;
+  margin-bottom: 50px;
+  max-width: 25vw; }
+  #logo-bottom img {
+    max-width: 100%;
+    max-height: 100%; }
+
+/*************DESKTOP LAYOUT*************/
+@media (min-width: 768px) {
+  #logo-bottom {
+    max-width: 10vw; }
+
+  #title-line-up h1 {
+    font-size: 6rem; } }
+
+/*# sourceMappingURL=tickets.css.map */

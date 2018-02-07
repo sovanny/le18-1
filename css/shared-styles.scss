@@ -3,6 +3,7 @@
 $text-color: white;
 $size: 1.1rem;
 $nav-height: 2.8rem;
+$nav-color: $green-light;
 
 
 #desktop-logo {
@@ -16,7 +17,7 @@ $nav-height: 2.8rem;
 .navbar {
   min-height: $nav-height;
   padding: 0 0.5rem 0 0.5rem;
-  background: $green-light;
+  background: $nav-color;
 }
 
 .navbar-brand {
