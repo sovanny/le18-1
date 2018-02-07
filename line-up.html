@@ -22,7 +22,9 @@
 <div class="container">
     <div id="title-line-up">
         <h1>Line-up 2018</h1>
+        <h2>Håll utkik här, snart släpper vi artister!</h2>
     </div>
+    <!--
     <div class="row no-gutters">
         <div  class="artist-1 col-md-4">
             <figure data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-delay="100">
@@ -223,6 +225,42 @@
             </figure>
         </div>
     </div>
+    -->
+
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <div class="tba">
+                <h2 data-aos="fade-in"  data-aos-delay="100" >TBA</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="tba">
+                <h2 data-aos="fade-in"  data-aos-delay="300" >TBA</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="tba">
+                <h2 data-aos="fade-in" data-aos-delay="500" >TBA</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <div class="tba">
+                <h2 data-aos="fade-in"  data-aos-delay="500" >TBA</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="tba">
+                <h2 data-aos="fade-in" data-aos-delay="300" >TBA</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="tba">
+                <h2 data-aos="fade-in" data-aos-delay="100" >TBA</h2>
+            </div>
+        </div>
+    </div>
     <div id="logo-bottom">
         <img src="img/Location-East_logo_svart.png">
     </div>
@@ -247,6 +285,26 @@
         once: true,
         disable: 'mobile'
     });
+
+    colors = [["#ffdc30", "#1e3437"],
+        ["#fcdfd7", "#1e3437"],
+        ["#45916a", "#9fd2ba"],
+        ["#9fd2ba", "#026666"],
+        ["#1e3437", "#9fd2ba"],
+        ["#026666", "#fcdfd7"]];
+
+    $(document).ready(
+        function () {
+            height = $(".tba").width();
+
+            $(".tba").height(height);
+            $(".tba").each(function () {
+                i = Math.floor(Math.random()*6);
+                $(this).css({backgroundColor: colors[i][0]});
+                $(this).css({color: colors[i][1]});
+            })
+        }
+    )
 </script>
 
 

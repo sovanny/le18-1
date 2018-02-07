@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-
   padding: 4px;
   outline: 30px solid white;
   background: white;
@@ -16,15 +15,28 @@ body {
 }
 
 #title-line-up {
+  text-align: center;
+  max-width: 800px;
+  margin:auto;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
   h1 {
-    font-size: 3rem;
+    font-size: 3em;
     color: white;
     font-family: $robotomono;
     font-weight: 700;
     background: #1e3437;
     display: inline-block;
   }
-  text-align: center;
+
+  h2{
+    font-size: 2em;
+    font-family: $robotomono;
+    color: $bluegreen-darker;
+
+
+  }
+
 }
 
 #logo-bottom {
@@ -39,42 +51,64 @@ body {
   }
 }
 
-.col-md-4{
+.col-md-4 {
   border: 1px solid white;
+
 }
 
+.tba {
+  text-align: center;
+
+
+  h2 {
+    font-size: 4rem;
+    position: relative;
+    top: 40%;
+    font-family: $robotomono;
+    font-weight: 600;
+
+    &:after{
+      transform: translateY(-40%);
+    }
+  }
+}
+
+/**
 .artist-1 {
-  background: url("../img/Instagram-rutor-1.jpg");
+  background: $green-light;
   background-size: contain;
 
 }
 
 .artist-2 {
 
-  background: url("../img/Instagram-rutor-2.jpg");
+  background: $bluegreen-darker;
   background-size: contain;
+
 }
 
 .artist-3 {
-  background: url("../img/Instagram-rutor-3.jpg");
+  background:$bluegreen-light;
   background-size: contain;
+
 }
 
 .artist-4 {
-  background: url("../img/Instagram-rutor-4.jpg");
+  background: $bluegreen-dark;
   background-size: contain;
 }
 
 .artist-5 {
-  background: url("../img/Instagram-rutor-5.jpg");
+  background:$green-dark;
   background-size: contain;
 }
 
 .artist-6 {
-  background: url("../img/Instagram-rutor-6.jpg");
+  background:$green-medium;
   background-size: contain;
 }
 
+/**
 .artist-7 {
   background: url("../img/Instagram-rutor-7.jpg");
   background-size: contain;
@@ -103,8 +137,8 @@ body {
 .artist-12 {
   background: url("../img/Instagram-rutor-12.jpg");
   background-size: contain;
-}
-
+}**/
+/**
 figure {
   position: relative;
   float: left;
@@ -158,7 +192,7 @@ figure {
 /*---------------*/
 /***** Effect *****/
 /*---------------*/
-
+/**
 figure {
   figcaption {
     top: auto;
@@ -189,7 +223,7 @@ figure {
     text-transform: none;
     font-size: 90%;
     opacity: 0;
-    -webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+    -webkit-backface-visibility: hidden;
     -webkit-transition: opacity 0.35s;
     transition: opacity 0.35s;
   }
@@ -251,7 +285,7 @@ figure {
   }
 
 }
-
+**/
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
@@ -264,7 +298,10 @@ figure {
 
   #title-line-up {
     h1 {
-      font-size: 6rem;
+      font-size: 5rem;
+    }
+    h2 {
+      font-size: 3rem;
     }
   }
 }
