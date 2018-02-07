@@ -19,7 +19,7 @@ body {
   margin: auto; }
   #partners img {
     max-width: 80%;
-    max-height: auto;
+    max-height: 80%;
     margin: auto;
     display: block; }
   #partners .col-md-3 {
@@ -37,7 +37,7 @@ body {
     filter: invert(100%); }
   #partners #arbis {
     max-width: 65%;
-    max-height: auto; }
+    max-height: 65%; }
 
 #logo-bottom {
   margin: auto;
