@@ -11,7 +11,8 @@ body {
 
 #title {
   text-align: center;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  margin-bottom: 5rem; }
   #title h1 {
     font-size: 3rem;
     color: white;
@@ -20,23 +21,23 @@ body {
     background: #1e3437;
     display: inline-block; }
 
-#ticket-row {
-  margin: 100px; }
-
 #ticket-1 {
-  height: 300px;
-  width: 300px;
-  background: url("../img/Instagram-rutor-1.jpg"); }
+  height: 360px;
+  width: 360px;
+  background: url("../img/Location-East_biljett-1.jpg");
+  background-size: cover; }
 
 #ticket-2 {
-  height: 300px;
-  width: 300px;
-  background: url("../img/Instagram-rutor-2.jpg"); }
+  height: 360px;
+  width: 360px;
+  background: url("../img/Location-East_biljett-2.jpg");
+  background-size: cover; }
 
 #ticket-3 {
-  height: 300px;
-  width: 300px;
-  background: url("../img/Instagram-rutor-3.jpg"); }
+  height: 360px;
+  width: 360px;
+  background: url("../img/Location-East_biljett-3.jpg");
+  background-size: cover; }
 
 #logo-bottom {
   margin: auto;

@@ -1,6 +1,6 @@
 @import "variables";
 
-$box-size: 300px;
+$box-size: 360px;
 
 body {
   background: #f7f7f7;
@@ -19,6 +19,7 @@ body {
 #title{
   text-align: center;
   margin-top: 3rem;
+  margin-bottom: 5rem;
   h1 {
     font-size: 3rem;
     color: white;
@@ -30,25 +31,28 @@ body {
   }
 }
 #ticket-row{
-  margin: 100px;
+
 }
 
 #ticket-1{
   height: $box-size;
   width: $box-size;
-  background: url("../img/Instagram-rutor-1.jpg");
+  background: url("../img/Location-East_biljett-1.jpg");
+  background-size:     cover;
 
 }
 #ticket-2{
   height: $box-size;
   width: $box-size;
-  background: url("../img/Instagram-rutor-2.jpg");
+  background: url("../img/Location-East_biljett-2.jpg");
+  background-size:     cover;
 
 }
 #ticket-3{
   height: $box-size;
   width: $box-size;
-  background: url("../img/Instagram-rutor-3.jpg");
+  background: url("../img/Location-East_biljett-3.jpg");
+  background-size:     cover;
 
 }
 
