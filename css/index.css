@@ -19,6 +19,7 @@ body {
   margin: auto; }
   #partners img {
     max-width: 80%;
+    max-height: auto;
     margin: auto;
     display: block; }
   #partners .col-md-3 {
@@ -34,6 +35,9 @@ body {
     font-size: 2rem; }
   #partners #sensus {
     filter: invert(100%); }
+  #partners #arbis {
+    max-width: 65%;
+    max-height: auto; }
 
 #logo-bottom {
   margin: auto;

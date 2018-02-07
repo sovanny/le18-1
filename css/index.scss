@@ -28,6 +28,7 @@ body{
 
   img{
     max-width: 80%;
+    max-height: auto;
     margin: auto;
     display: block;
 
@@ -49,6 +50,12 @@ body{
 
   #sensus{
     filter: invert(100%);
+  }
+
+
+  #arbis{
+    max-width: 65%;
+    max-height: auto;
   }
 }
 
