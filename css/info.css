@@ -7,7 +7,8 @@ body {
   background: #f7f7f7; }
 
 .container {
-  background: white; }
+  background: white;
+  padding-bottom: 100px; }
 
 #info-section h1 {
   font-family: "Roboto Mono", monospace;
@@ -30,14 +31,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300; }
 
-#contact-row {
-  width: 200px;
-  font-size: 3rem; }
-  #contact-row a {
-    color: #026666; }
-    #contact-row a:hover, #contact-row a:focus {
-      color: #fcdfd7; }
-
 #flower-header {
   margin-top: -150px;
   max-width: 100%;
@@ -46,48 +39,44 @@ body {
     width: 100%; }
 
 #flower-footer {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-  margin-top: -350px;
-  bottom: 0; }
-  #flower-footer img {
-    width: 100%; }
+  margin-top: -18%;
+  position: absolute;
+  width: 100%;
+  left: 0; }
+  #flower-footer #pattern {
+    position: absolute;
+    width: 100%;
+    margin-top: -18%; }
 
 #logo-bottom {
-  max-width: 25vw;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  z-index: 1000; }
+  position: absolute;
+  width: 100%; }
   #logo-bottom img {
-    max-width: 100%;
-    max-height: 100%; }
+    max-width: 25%;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 8.1vw; }
+  #logo-bottom #contact-row {
+    max-width: 25%;
+    display: block;
+    position: absolute;
+    width: 8rem;
+    font-size: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 18vw; }
+    #logo-bottom #contact-row a {
+      color: black; }
+      #logo-bottom #contact-row a:hover, #logo-bottom #contact-row a:focus {
+        color: #9fd2ba; }
 
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {
   .container {
-    padding: 40px 200px 4px 200px; }
-
-  #logo-bottom {
-    max-width: 20vw; } }
-@media (min-width: 1200px) {
-  #flower-footer {
-    max-width: 1140px; } }
-/*
-
-@media (min-width: 992px)
-.container {
-  max-width: 960px;
-}
-@media (min-width: 768px)
-.container {
-  max-width: 720px;
-}
-@media (min-width: 576px)
-.container {
-  max-width: 540px;
-}*/
+    padding: 40px 200px 30vh 200px; } }
 
 /*# sourceMappingURL=info.css.map */

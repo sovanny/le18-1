@@ -74,8 +74,7 @@ body {
     color: #ffdc30; }
     .ticket .fun-btn:hover {
       animation: sawtooth 0.35s infinite linear;
-      background: linear-gradient(45deg, #ffdc30 0.5em, transparent 0.5em) 0 0/1em 1em, linear-gradient(-45deg, #ffdc30 0.5em, transparent 0.5em) 0 0/1em 1em;
-      color: #026666; }
+      background: linear-gradient(45deg, #ffdc30 0.5em, transparent 0.5em) 0 0/1em 1em, linear-gradient(-45deg, #ffdc30 0.5em, transparent 0.5em) 0 0/1em 1em; }
 @keyframes sawtooth {
   100% {
     background-position: 1em 0; } }
