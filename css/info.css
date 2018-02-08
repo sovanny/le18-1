@@ -70,6 +70,7 @@ body {
     margin: auto;
     margin-top: 18vw; }
     #logo-bottom #contact-row a {
+      display: inline-block;
       color: black; }
       #logo-bottom #contact-row a:hover, #logo-bottom #contact-row a:focus {
         color: #9fd2ba; }
@@ -78,5 +79,8 @@ body {
 @media (min-width: 768px) {
   .container {
     padding: 40px 200px 30vh 200px; } }
+@media (max-width: 575.98px) {
+  #contact-row {
+    visibility: hidden; } }
 
 /*# sourceMappingURL=info.css.map */

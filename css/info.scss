@@ -15,7 +15,6 @@ body {
   background: white;
   padding-bottom: 100px;
 
-
 }
 
 #info-section {
@@ -47,7 +46,6 @@ body {
   }
 }
 
-
 #flower-header {
 
   margin-top: -150px;
@@ -66,16 +64,11 @@ body {
   width: 100%;
   left: 0;
 
-
-
-
-  #pattern{
+  #pattern {
     position: absolute;
     width: 100%;
 
     margin-top: -18%;
-
-
 
   }
 
@@ -85,26 +78,27 @@ body {
   position: absolute;
   width: 100%;
 
-
   img {
 
     max-width: 25%;
-    display:block;
-    position:absolute;
+    display: block;
+    position: absolute;
 
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
 
-    margin:auto;
+    margin: auto;
     margin-top: 8.1vw;
   }
-  #contact-row{
+  #contact-row {
+
     max-width: 25%;
-    display:block;
-    position:absolute;
+    display: block;
+    position: absolute;
     width: 8rem;
     font-size: 2rem;
     a {
+      display: inline-block;
       color: black;
       &:hover,
       &:focus {
@@ -112,13 +106,14 @@ body {
       }
     }
 
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
 
-    margin:auto;
+    margin: auto;
     margin-top: 18vw;
   }
 }
+
 
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
@@ -128,5 +123,11 @@ body {
     padding: 40px 200px 30vh 200px;
   }
 
+}
 
+@media (max-width: 575.98px) {
+
+  #contact-row {
+  visibility: hidden;
+  }
 }
