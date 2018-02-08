@@ -1,25 +1,32 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300, 400, 600");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+html, body {
+  height: 100%; }
+
 body {
   background: #f7f7f7; }
 
 .container {
-  outline: 30px solid white;
   background: white; }
 
-h1 {
+#info-section h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  color: #1e3437;
+  /*margin-bottom: 120px;
+  font-size: 3rem;
+  color: white;
+  font-family: $robotomono;
+  font-weight: 700;
+  background: #1e3437;
+  display: inline-block;*/ }
+#info-section h2 {
   font-family: "Roboto Mono", monospace;
   font-weight: 700; }
-
-h2 {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 700; }
-
-h3 {
+#info-section h3 {
   font-family: "Roboto Mono", monospace;
   font-weight: 500; }
-
-p {
+#info-section p {
   font-family: "Poppins", sans-serif;
   font-weight: 300; }
 
@@ -31,11 +38,29 @@ p {
     #contact-row a:hover, #contact-row a:focus {
       color: #fcdfd7; }
 
+#flower-header {
+  margin-top: -150px;
+  max-width: 100%;
+  margin-bottom: -750px; }
+  #flower-header img {
+    width: 100%; }
+
+#flower-footer {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  margin-top: -350px;
+  bottom: 0; }
+  #flower-footer img {
+    width: 100%; }
+
 #logo-bottom {
   max-width: 25vw;
   margin: auto;
   margin-top: 100px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  z-index: 1000; }
   #logo-bottom img {
     max-width: 100%;
     max-height: 100%; }
@@ -46,6 +71,23 @@ p {
     padding: 40px 200px 4px 200px; }
 
   #logo-bottom {
-    max-width: 10vw; } }
+    max-width: 20vw; } }
+@media (min-width: 1200px) {
+  #flower-footer {
+    max-width: 1140px; } }
+/*
+
+@media (min-width: 992px)
+.container {
+  max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+  max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+  max-width: 540px;
+}*/
 
 /*# sourceMappingURL=info.css.map */

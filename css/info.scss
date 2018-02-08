@@ -1,53 +1,95 @@
 @import "variables";
 
+html, body {
+  height: 100%;
+}
+
 body {
   background: #f7f7f7;
-
 }
 
 .container {
 
-  outline: 30px solid white;
+  //outline: 30px solid white;
   background: white;
 
 }
 
-h1{
-  font-family: $robotomono;
-  font-weight: 700;
-}
-h2{
-  font-family: $robotomono;
-  font-weight: 700;
-}
-h3{
-  font-family: $robotomono;
-  font-weight: 500;
+#info-section {
+
+  h1 {
+    font-family: $robotomono;
+    font-weight: 700;
+    color: $bluegreen-darker;
+    /*margin-bottom: 120px;
+    font-size: 3rem;
+    color: white;
+    font-family: $robotomono;
+    font-weight: 700;
+    background: #1e3437;
+    display: inline-block;*/
+  }
+  h2 {
+    font-family: $robotomono;
+    font-weight: 700;
+  }
+  h3 {
+    font-family: $robotomono;
+    font-weight: 500;
+  }
+
+  p {
+    font-family: $poppins;
+    font-weight: 300;
+  }
 }
 
-p{
-  font-family: $poppins;
-  font-weight: 300;
-}
-#contact-row{
+#contact-row {
   width: 200px;
   font-size: 3rem;
-  a{
+  a {
     color: $bluegreen-dark;
     &:hover,
-    &:focus{
+    &:focus {
       color: $pink;
     }
   }
 }
 
+#flower-header {
+
+  margin-top: -150px;
+  max-width: 100%;
+  margin-bottom: -750px;
+
+  img {
+    width: 100%;
+  }
+
+}
+
+#flower-footer {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 100%;
+  margin-top: -350px;
+  //margin-bottom: -300px;
+  bottom: 0;
+
+  img {
+    width: 100%;
+  }
+
+}
 
 #logo-bottom {
   max-width: 25vw;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 50px;
-
+  z-index: 1000;
 
   img {
     max-width: 100%;
@@ -65,6 +107,27 @@ p{
   }
 
   #logo-bottom {
-    max-width: 10vw;
+    max-width: 20vw;
   }
 }
+
+@media (min-width: 1200px){
+  #flower-footer {
+    max-width: 1140px;
+  }
+}
+
+/*
+
+@media (min-width: 992px)
+.container {
+  max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+  max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+  max-width: 540px;
+}*/

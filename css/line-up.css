@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,600");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300, 400, 600");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
 body {
   background: #f7f7f7; }
@@ -40,6 +40,12 @@ body {
 
 .tba {
   text-align: center; }
+  .tba:hover {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s; }
+    .tba:hover h2 {
+      opacity: 1; }
   .tba h2 {
     font-size: 4rem;
     position: relative;
