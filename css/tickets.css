@@ -54,6 +54,8 @@ body {
     opacity: 0.7;
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s; }
+  .ticket:hover .fun-btn {
+    color: #026666; }
   .ticket body {
     font: 700 14px/1 Montserrat, sans-serif;
     letter-spacing: 0.125em;

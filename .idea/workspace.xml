@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Location-East_info-nederkant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Location-East_info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/line-up-18.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_variables.scss" afterPath="$PROJECT_DIR$/css/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css.map" afterPath="$PROJECT_DIR$/css/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/info.css" afterPath="$PROJECT_DIR$/css/info.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/info.css.map" afterPath="$PROJECT_DIR$/css/info.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/info.scss" afterPath="$PROJECT_DIR$/css/info.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up-17.css" afterPath="$PROJECT_DIR$/css/line-up-17.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up-17.css.map" afterPath="$PROJECT_DIR$/css/line-up-17.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up-17.scss" afterPath="$PROJECT_DIR$/css/line-up-17.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.css" afterPath="$PROJECT_DIR$/css/line-up.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.css.map" afterPath="$PROJECT_DIR$/css/line-up.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.scss" afterPath="$PROJECT_DIR$/css/line-up.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/shared-styles.css" afterPath="$PROJECT_DIR$/css/shared-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/shared-styles.css.map" afterPath="$PROJECT_DIR$/css/shared-styles.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tickets.css" afterPath="$PROJECT_DIR$/css/tickets.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tickets.css.map" afterPath="$PROJECT_DIR$/css/tickets.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tickets.scss" afterPath="$PROJECT_DIR$/css/tickets.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info.html" afterPath="$PROJECT_DIR$/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-up-17.html" afterPath="$PROJECT_DIR$/line-up-17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-up-18.html" afterPath="$PROJECT_DIR$/line-up-18.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets.html" afterPath="$PROJECT_DIR$/tickets.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="info.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/info.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -100,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tickets.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tickets.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tickets.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="26" />
+              <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -213,12 +192,12 @@
         <option value="$PROJECT_DIR$/line-up-18.html" />
         <option value="$PROJECT_DIR$/css/line-up-18.scss" />
         <option value="$PROJECT_DIR$/tickets.html" />
-        <option value="$PROJECT_DIR$/css/tickets.scss" />
         <option value="$PROJECT_DIR$/css/line-up.scss" />
         <option value="$PROJECT_DIR$/line-up-17.html" />
         <option value="$PROJECT_DIR$/css/line-up-17.scss" />
         <option value="$PROJECT_DIR$/info.html" />
         <option value="$PROJECT_DIR$/css/info.scss" />
+        <option value="$PROJECT_DIR$/css/tickets.scss" />
       </list>
     </option>
   </component>
@@ -325,7 +304,7 @@
       <workItem from="1516252149490" duration="13470000" />
       <workItem from="1516339333448" duration="44490000" />
       <workItem from="1516858846855" duration="34144000" />
-      <workItem from="1517687781584" duration="58799000" />
+      <workItem from="1517687781584" duration="59352000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1516264873550</created>
@@ -635,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518026175804</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="labbar">
+      <created>1518086522075</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1518086522075</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150903000" />
+    <option name="totallyTimeSpent" value="151456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -671,7 +657,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="addded captions" />
     <MESSAGE value="font change" />
     <MESSAGE value="map fix" />
     <MESSAGE value="add last year poster" />
@@ -696,7 +681,8 @@
     <MESSAGE value="changed pictures" />
     <MESSAGE value="förstasida" />
     <MESSAGE value="artistsida" />
-    <option name="LAST_COMMIT_MESSAGE" value="artistsida" />
+    <MESSAGE value="labbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="labbar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1078,14 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tickets.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/line-up.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1106,6 +1084,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tickets.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
           <folding />
         </state>
       </provider>
