@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300, 400, 600");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+html, body {
+  max-height: 100%; }
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -31,7 +34,7 @@ body {
       font-size: 3rem; }
 
 .container {
-  padding: 4px 40px 25vw 40px;
+  padding: 4px 40px 27vw 40px;
   background: white; }
 
 #partners {
@@ -119,6 +122,13 @@ body {
       font-size: 1rem; }
     .carousel-item .agnes-caption h5 {
       font-size: 1rem; }
+  .carousel-item .le-caption {
+    display: block !important;
+    bottom: 15px; }
+    .carousel-item .le-caption h5 {
+      font-size: 1rem; }
+    .carousel-item .le-caption a {
+      display: none; }
 
   #flower-footer #logo-bottom #footer-contact-row {
     visibility: hidden;

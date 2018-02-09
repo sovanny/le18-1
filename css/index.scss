@@ -1,5 +1,8 @@
 @import "variables";
 
+html, body {
+  max-height: 100%;
+}
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -46,7 +49,7 @@ body {
 
 .container {
 
-  padding: 4px 40px 25vw 40px;
+  padding: 4px 40px 27vw 40px;
 
   background: white;
 
@@ -181,6 +184,18 @@ body {
       }
       h5 {
         font-size: 1rem;
+      }
+    }
+    .le-caption{
+      display: block !important;
+      bottom: 15px;
+
+
+      h5{
+        font-size: 1rem;
+      }
+      a{
+        display: none;
       }
     }
 
