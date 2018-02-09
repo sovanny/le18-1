@@ -1,74 +1,90 @@
 @import "variables";
 
-.carousel-item{
+.carousel-item {
   max-height: 90vh;
-  h5{
-    a{
-      color: $bluegreen-dark;
+  h5 {
+    font-size: 4.7rem;
+    font-family: $robotomono;
+  }
+  .info-link {
+    a {
+      font-size: 2rem;
+      color: $bluegreen-medium;
+    }
+  }
+  .agnes-caption {
+    position: absolute;
+    right: 5%;
+    bottom: 20px;
+    left: 45%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: right;
+    h3 {
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-family: $robotomono;
     }
   }
 }
 
-
-body{
+body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 
   background: #f7f7f7;
 }
 
-
 .container {
 
   padding: 4px 40px 4px 40px;
-
 
   background: white;
 
 }
 
-#partners{
+#partners {
   max-width: 600px;
   margin: auto;
 
-  img{
+  img {
     max-width: 80%;
     max-height: 80%;
     margin: auto;
     display: block;
 
   }
-  .col-md-3{
+  .col-md-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  h1{
+  h1 {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
     font-family: $robotomono;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
-  #sensus{
+  #sensus {
     filter: invert(100%);
   }
 
-
-  #arbis{
+  #arbis {
     max-width: 65%;
     max-height: 65%;
   }
 }
 
-
 #logo-bottom {
   margin: auto;
   margin-top: 100px;
-  max-width: 10vw;
+  max-width: 25vw;
 
   img {
     max-width: 100%;
@@ -76,7 +92,6 @@ body{
 
   }
 }
-
 
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
@@ -87,4 +102,28 @@ body{
       font-size: 3rem;
     }
   }
+  #logo-bottom {
+    max-width: 10vw;
+  }
+}
+
+@media (max-width: 767px) {
+
+
+  .carousel-item {
+
+
+    .agnes-caption {
+      display: block !important;
+      bottom: 10px;
+      h3{
+        font-size: 1rem;
+      }
+      h5{
+        font-size: 1rem;
+      }
+    }
+
+  }
+
 }

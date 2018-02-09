@@ -15,9 +15,14 @@ body {
   margin: auto;
   margin-top: 100px;
   margin-bottom: 50px;
-  max-width: 10vw; }
+  max-width: 25vw; }
   #logo-bottom img {
     max-width: 100%;
     max-height: 100%; }
+
+/*************DESKTOP LAYOUT*************/
+@media (min-width: 768px) {
+  #logo-bottom {
+    max-width: 10vw; } }
 
 /*# sourceMappingURL=line-up-17.css.map */

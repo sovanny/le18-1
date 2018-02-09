@@ -1,15 +1,20 @@
 @import "variables";
 
 $box-size: 360px;
+html, body {
+  height: 100%;
+}
 
 body {
   background: #f7f7f7;
+
 
 }
 
 .container {
 
   padding: 25px;
+  padding-bottom: 18vw;
   outline: 30px solid white;
   background: white;
   min-height: 70vh;
@@ -46,6 +51,7 @@ body {
 .ticket{
   text-align: center;
   min-width: 270px;
+  z-index: 20;
 
   figure {
     position: relative;
@@ -89,14 +95,6 @@ body {
     }
   }
 
-  body {
-
-
-    font: 700 14px/1 Montserrat, sans-serif;
-    letter-spacing: 0.125em;
-    text-align: center;
-    text-transform: uppercase;
-  }
 
 
   .fun-btn{
@@ -129,23 +127,67 @@ body {
   }
 }
 
+#flower-footer {
+
+  margin-top: -18%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+
+  #pattern {
+    position: absolute;
+    width: 100%;
+
+    margin-top: -18%;
+
+  }
+
+}
+
 #logo-bottom {
-  margin: auto;
-  margin-top: 20vh;
-  margin-bottom: 50px;
-  max-width: 25vw;
+  position: absolute;
+  width: 100%;
+
   img {
-    max-width: 100%;
-    max-height: 100%;
+
+    max-width: 25%;
+    display: block;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin-top: 8.1vw;
+  }
+  #footer-contact-row {
+
+    max-width: 25%;
+    display: block;
+    position: absolute;
+    width: 8rem;
+    font-size: 2rem;
+    a {
+      display: inline-block;
+      color: black;
+      &:hover,
+      &:focus {
+        color: $green-light;
+      }
+    }
+
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin-top: 20vw;
   }
 }
 
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  #logo-bottom {
-    max-width: 10vw;
-  }
+
   #title-line-up {
     h1 {
       font-size: 6rem;
@@ -154,9 +196,19 @@ body {
 
 }
 
-/****Only on mobile******/
+/****Only on tablet******/
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container{
     padding: 100px;
   }
+}
+/***mobile**/
+@media (max-width: 575.98px) {
+  #logo-bottom {
+    #footer-contact-row {
+      visibility: hidden;
+      margin-top: 0;
+    }
+  }
+
 }

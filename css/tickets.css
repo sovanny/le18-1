@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300, 400, 600");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+html, body {
+  height: 100%; }
+
 body {
   background: #f7f7f7; }
 
 .container {
   padding: 25px;
+  padding-bottom: 18vw;
   outline: 30px solid white;
   background: white;
   min-height: 70vh; }
@@ -32,7 +36,8 @@ body {
 
 .ticket {
   text-align: center;
-  min-width: 270px; }
+  min-width: 270px;
+  z-index: 20; }
   .ticket figure {
     position: relative;
     overflow: hidden;
@@ -62,11 +67,6 @@ body {
     transition: opacity 0.3s; }
   .ticket:hover .fun-btn {
     color: #026666; }
-  .ticket body {
-    font: 700 14px/1 Montserrat, sans-serif;
-    letter-spacing: 0.125em;
-    text-align: center;
-    text-transform: uppercase; }
   .ticket .fun-btn {
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
@@ -84,25 +84,55 @@ body {
 @keyframes sawtooth {
   100% {
     background-position: 1em 0; } }
+#flower-footer {
+  margin-top: -18%;
+  position: absolute;
+  width: 100%;
+  left: 0; }
+  #flower-footer #pattern {
+    position: absolute;
+    width: 100%;
+    margin-top: -18%; }
+
 #logo-bottom {
-  margin: auto;
-  margin-top: 20vh;
-  margin-bottom: 50px;
-  max-width: 25vw; }
+  position: absolute;
+  width: 100%; }
   #logo-bottom img {
-    max-width: 100%;
-    max-height: 100%; }
+    max-width: 25%;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 8.1vw; }
+  #logo-bottom #footer-contact-row {
+    max-width: 25%;
+    display: block;
+    position: absolute;
+    width: 8rem;
+    font-size: 2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 20vw; }
+    #logo-bottom #footer-contact-row a {
+      display: inline-block;
+      color: black; }
+      #logo-bottom #footer-contact-row a:hover, #logo-bottom #footer-contact-row a:focus {
+        color: #9fd2ba; }
 
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {
-  #logo-bottom {
-    max-width: 10vw; }
-
   #title-line-up h1 {
     font-size: 6rem; } }
-/****Only on mobile******/
+/****Only on tablet******/
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
     padding: 100px; } }
+/***mobile**/
+@media (max-width: 575.98px) {
+  #logo-bottom #footer-contact-row {
+    visibility: hidden;
+    margin-top: 0; } }
 
 /*# sourceMappingURL=tickets.css.map */
