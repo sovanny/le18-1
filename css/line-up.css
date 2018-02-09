@@ -4,13 +4,13 @@ body {
   background: #f7f7f7; }
 
 .container {
-  padding: 4px;
+  padding: 4px 4px 18vw 4px;
   outline: 30px solid white;
   background: white; }
 
 #title-line-up {
   text-align: center;
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
   margin-bottom: 2rem;
   margin-top: 1.5rem; }
@@ -22,18 +22,10 @@ body {
     background: #1e3437;
     display: inline-block; }
   #title-line-up h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: "Roboto Mono", monospace;
+    font-weight: 500;
     color: #1e3437; }
-
-#logo-bottom {
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  max-width: 25vw; }
-  #logo-bottom img {
-    max-width: 100%;
-    max-height: 100%; }
 
 .col-lg-4 {
   border: 1px solid white; }
@@ -217,13 +209,46 @@ figure:hover p.icon-links a:first-child {
   background: url("../img/Instagram-rutor-12.jpg");
   background-size: contain; }
 
+#flower-footer {
+  margin-top: -18%;
+  position: absolute;
+  width: 100%;
+  left: 0; }
+  #flower-footer #pattern {
+    position: absolute;
+    width: 100%;
+    margin-top: -18%; }
+  #flower-footer #logo-bottom {
+    position: absolute;
+    width: 100%; }
+    #flower-footer #logo-bottom img {
+      max-width: 25%;
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 8.1vw; }
+    #flower-footer #logo-bottom #footer-contact-row {
+      max-width: 25%;
+      display: block;
+      position: absolute;
+      width: 8rem;
+      font-size: 2rem;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 19vw; }
+      #flower-footer #logo-bottom #footer-contact-row a {
+        display: inline-block;
+        color: black; }
+        #flower-footer #logo-bottom #footer-contact-row a:hover, #flower-footer #logo-bottom #footer-contact-row a:focus {
+          color: #9fd2ba; }
+
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {
   figure p.icon-links a {
-    padding: 5px 10px; }
-
-  #logo-bottom {
-    max-width: 10vw; } }
+    padding: 5px 10px; } }
 /****Only on tablet******/
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
@@ -233,6 +258,10 @@ figure:hover p.icon-links a:first-child {
     padding: 2em 4em 8em 4em; } }
 @media (max-width: 768px) {
   figure p.description {
-    padding: 1.4em 1.4em 0.5em 1.4em; } }
+    padding: 1.4em 1.4em 0.5em 1.4em; }
+
+  #flower-footer #logo-bottom #footer-contact-row {
+    visibility: hidden;
+    margin-top: 0; } }
 
 /*# sourceMappingURL=line-up.css.map */

@@ -1,14 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300, 400, 600");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background: #f7f7f7; }
+
 .carousel-item {
   max-height: 90vh; }
-  .carousel-item h5 {
-    font-size: 4.7rem;
+  .carousel-item .le-caption h5 {
+    font-size: 3rem;
     font-family: "Roboto Mono", monospace; }
-  .carousel-item .info-link a {
+  .carousel-item .le-caption a {
     font-size: 2rem;
     color: #24b2a4; }
   .carousel-item .agnes-caption {
+    font-family: "Roboto Mono", monospace;
     position: absolute;
     right: 5%;
     bottom: 20px;
@@ -18,18 +24,14 @@
     padding-bottom: 20px;
     color: #fff;
     text-align: right; }
+    .carousel-item .agnes-caption h5 {
+      font-size: 4.7rem; }
     .carousel-item .agnes-caption h3 {
       text-transform: uppercase;
-      font-size: 3rem;
-      font-family: "Roboto Mono", monospace; }
-
-body {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  background: #f7f7f7; }
+      font-size: 3rem; }
 
 .container {
-  padding: 4px 40px 4px 40px;
+  padding: 4px 40px 30vw 40px;
   background: white; }
 
 #partners {
@@ -57,21 +59,58 @@ body {
     max-width: 65%;
     max-height: 65%; }
 
+/*
 #logo-bottom {
   margin: auto;
   margin-top: 100px;
-  max-width: 25vw; }
-  #logo-bottom img {
+  max-width: 25vw;
+
+  img {
     max-width: 100%;
-    max-height: 100%; }
+    max-height: 100%;
+
+  }
+}*/
+#flower-footer {
+  margin-top: -18%;
+  position: absolute;
+  width: 100%;
+  left: 0; }
+  #flower-footer #pattern {
+    position: absolute;
+    width: 100%;
+    margin-top: -18%; }
+  #flower-footer #logo-bottom {
+    position: absolute;
+    width: 100%; }
+    #flower-footer #logo-bottom img {
+      max-width: 25%;
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 8.1vw; }
+    #flower-footer #logo-bottom #footer-contact-row {
+      max-width: 25%;
+      display: block;
+      position: absolute;
+      width: 8rem;
+      font-size: 2rem;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 19vw; }
+      #flower-footer #logo-bottom #footer-contact-row a {
+        display: inline-block;
+        color: black; }
+        #flower-footer #logo-bottom #footer-contact-row a:hover, #flower-footer #logo-bottom #footer-contact-row a:focus {
+          color: #9fd2ba; }
 
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {
   .partners h1 {
-    font-size: 3rem; }
-
-  #logo-bottom {
-    max-width: 10vw; } }
+    font-size: 3rem; } }
 @media (max-width: 767px) {
   .carousel-item .agnes-caption {
     display: block !important;
@@ -79,6 +118,10 @@ body {
     .carousel-item .agnes-caption h3 {
       font-size: 1rem; }
     .carousel-item .agnes-caption h5 {
-      font-size: 1rem; } }
+      font-size: 1rem; }
+
+  #flower-footer #logo-bottom #footer-contact-row {
+    visibility: hidden;
+    margin-top: 0; } }
 
 /*# sourceMappingURL=index.css.map */

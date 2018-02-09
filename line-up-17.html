@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Line-up 2017</title>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
           integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/shared-styles.css">
     <link rel="stylesheet" href="css/line-up-17.css ">
 </head>
@@ -17,11 +18,25 @@
 <div class="container">
     <img id="poster-17" class="mx-auto d-block" src="./img/poster-2017.jpg">
 
-    <div id="logo-bottom">
-        <img src="img/Location-East_logo_svart.png">
-    </div>
-</div>
 
+</div>
+<div id="flower-footer">
+
+    <img id="pattern" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom"
+         data-aos-delay="800" data-aos-duration="1000" src="img/Location-East_info-nederkant-2.png">
+    <div id="logo-bottom" data-aos-anchor-placement="bottom-bottom" data-aos="fade-down" data-aos-delay="800"
+         data-aos-duration="1200">
+        <img src="img/Location-East_logo_svart.png">
+
+        <div id="footer-contact-row" class="d-flex justify-content-between">
+            <a href="mailto:locationeast@gmail.com"><i class="far fa-envelope"></i></a>
+            <a href="https://www.facebook.com/locationeast/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/locationeast/"><i class="fab fa-instagram"></i></a>
+
+        </div>
+    </div>
+
+</div>
 
 
 
@@ -35,6 +50,17 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
         integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
         crossorigin="anonymous"></script>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+<script>
+    <!-- ANIMATE ON SCROLL -->
+    AOS.init({
+
+        startEvent: 'load',
+
+        disable: 'mobile'
+    });
+</script>
 
 <script src="js/main.js"></script>
 

@@ -54,12 +54,14 @@ body {
     font-family: $poppins;
     font-weight: 300;
   }
+
+
 }
 
 #contact-row {
   max-width: 10rem;
   font-size: 3rem;
-  margin: auto;
+
   a {
     display: inline-block;
     color: $green-dark;
@@ -84,46 +86,46 @@ body {
 
   }
 
-}
-
-#logo-bottom {
-  position: absolute;
-  width: 100%;
-
-  img {
-
-    max-width: 25%;
-    display: block;
+  #logo-bottom {
     position: absolute;
+    width: 100%;
 
-    left: 0;
-    right: 0;
+    img {
 
-    margin: auto;
-    margin-top: 8.1vw;
-  }
-  #footer-contact-row {
+      max-width: 25%;
+      display: block;
+      position: absolute;
 
-    max-width: 25%;
-    display: block;
-    position: absolute;
-    width: 8rem;
-    font-size: 2rem;
-    a {
-      display: inline-block;
-      color: black;
-      &:hover,
-      &:focus {
-        color: $green-light;
-      }
+      left: 0;
+      right: 0;
+
+      margin: auto;
+      margin-top: 8.1vw;
     }
+    #footer-contact-row {
 
-    left: 0;
-    right: 0;
+      max-width: 25%;
+      display: block;
+      position: absolute;
+      width: 8rem;
+      font-size: 2rem;
+      a {
+        display: inline-block;
+        color: black;
+        &:hover,
+        &:focus {
+          color: $green-light;
+        }
+      }
 
-    margin: auto;
-    margin-top: 19vw;
+      left: 0;
+      right: 0;
+
+      margin: auto;
+      margin-top: 19vw;
+    }
   }
+
 }
 
 /*************DESKTOP LAYOUT*************/
