@@ -147,11 +147,14 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  #logo-bottom {
-    #footer-contact-row {
-      visibility: hidden;
-      margin-top: 0;
+  #flower-footer {
+    #logo-bottom {
+      #footer-contact-row {
+        visibility: hidden;
+        margin-top: 0;
+      }
     }
+
   }
   #contact-row {
     margin: auto;
