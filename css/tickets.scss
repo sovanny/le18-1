@@ -18,15 +18,23 @@ body {
 
 #title {
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
   h1 {
-    font-size: 3rem;
+    font-size: 3em;
     color: white;
     font-family: $robotomono;
     font-weight: 700;
     background: #1e3437;
     display: inline-block;
+  }
+
+  h2 {
+    font-size: 2em;
+    font-family: $robotomono;
+    color: $bluegreen-darker;
 
   }
 }

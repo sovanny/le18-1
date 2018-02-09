@@ -223,10 +223,7 @@ figure:hover p.icon-links a:first-child {
     padding: 5px 10px; }
 
   #logo-bottom {
-    max-width: 10vw; }
-
-  #title-line-up h1 {
-    font-size: 5rem; } }
+    max-width: 10vw; } }
 /****Only on tablet******/
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {

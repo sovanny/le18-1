@@ -318,12 +318,6 @@ figure {
     max-width: 10vw;
   }
 
-  #title-line-up {
-    h1 {
-      font-size: 5rem;
-    }
-
-  }
 }
 
 /****Only on tablet******/
@@ -331,7 +325,7 @@ figure {
   .container {
     padding: 100px;
   }
-  figure p.description{
+  figure p.description {
 
     padding: 2em 4em 8em 4em;
 
@@ -340,9 +334,9 @@ figure {
 
 @media (max-width: 768px) {
 
-  figure p.description{
+  figure p.description {
 
-      padding: 1.4em 1.4em 0.5em 1.4em;
+    padding: 1.4em 1.4em 0.5em 1.4em;
 
   }
 }

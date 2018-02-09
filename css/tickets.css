@@ -11,15 +11,21 @@ body {
 
 #title {
   text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 5rem; }
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem; }
   #title h1 {
-    font-size: 3rem;
+    font-size: 3em;
     color: white;
     font-family: "Roboto Mono", monospace;
     font-weight: 700;
     background: #1e3437;
     display: inline-block; }
+  #title h2 {
+    font-size: 2em;
+    font-family: "Roboto Mono", monospace;
+    color: #1e3437; }
 
 .col-lg-4 {
   padding: 25px; }
