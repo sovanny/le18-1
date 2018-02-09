@@ -31,6 +31,14 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300; }
 
+#contact-row {
+  font-size: 3rem; }
+  #contact-row a {
+    display: inline-block;
+    color: #0d664e; }
+    #contact-row a:hover, #contact-row a:focus {
+      color: #fcdfd7; }
+
 #flower-header {
   margin-top: -150px;
   max-width: 100%;
@@ -59,7 +67,7 @@ body {
     right: 0;
     margin: auto;
     margin-top: 8.1vw; }
-  #logo-bottom #contact-row {
+  #logo-bottom #footer-contact-row {
     max-width: 25%;
     display: block;
     position: absolute;
@@ -69,10 +77,10 @@ body {
     right: 0;
     margin: auto;
     margin-top: 18vw; }
-    #logo-bottom #contact-row a {
+    #logo-bottom #footer-contact-row a {
       display: inline-block;
       color: black; }
-      #logo-bottom #contact-row a:hover, #logo-bottom #contact-row a:focus {
+      #logo-bottom #footer-contact-row a:hover, #logo-bottom #footer-contact-row a:focus {
         color: #9fd2ba; }
 
 /*************DESKTOP LAYOUT*************/
@@ -80,7 +88,7 @@ body {
   .container {
     padding: 40px 200px 30vh 200px; } }
 @media (max-width: 575.98px) {
-  #contact-row {
+  #footer-contact-row {
     visibility: hidden; } }
 
 /*# sourceMappingURL=info.css.map */

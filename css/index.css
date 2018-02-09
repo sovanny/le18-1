@@ -1,7 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300, 400,600");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300, 400, 600");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
 .carousel-item {
   max-height: 90vh; }
+  .carousel-item h5 a {
+    color: #026666; }
 
 body {
   font-family: "Poppins", sans-serif;
@@ -10,8 +12,6 @@ body {
 
 .container {
   padding: 4px 40px 4px 40px;
-  outline: 30px solid white;
-  outline: 30px solid white;
   background: white; }
 
 #partners {

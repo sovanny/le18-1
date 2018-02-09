@@ -46,6 +46,21 @@ body {
   }
 }
 
+
+#contact-row {
+
+  font-size: 3rem;
+  a {
+    display: inline-block;
+    color: $green-dark;
+    &:hover,
+    &:focus {
+      color: $pink;
+    }
+  }
+}
+
+
 #flower-header {
 
   margin-top: -150px;
@@ -90,7 +105,7 @@ body {
     margin: auto;
     margin-top: 8.1vw;
   }
-  #contact-row {
+  #footer-contact-row {
 
     max-width: 25%;
     display: block;
@@ -127,7 +142,7 @@ body {
 
 @media (max-width: 575.98px) {
 
-  #contact-row {
-  visibility: hidden;
+  #footer-contact-row {
+    visibility: hidden;
   }
 }

@@ -39,7 +39,7 @@ body {
   }
 }
 
-.col-md-4{
+.col-lg-4{
   border: 1px solid white;
 }
 
@@ -121,11 +121,11 @@ figure {
     opacity: 1;
   }
   figcaption {
-    padding: 2em;
+
     color: #fff;
     background: #fff;
     text-transform: uppercase;
-    font-size: 1.25em;
+
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     &::before,
@@ -164,6 +164,7 @@ figure {
     top: auto;
     bottom: 0;
     padding: 1em;
+    font-size: 1.25em;
     height: 3.75em;
     color: #1F3437;
     -webkit-transition: -webkit-transform 0.35s;

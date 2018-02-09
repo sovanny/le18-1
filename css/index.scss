@@ -2,6 +2,11 @@
 
 .carousel-item{
   max-height: 90vh;
+  h5{
+    a{
+      color: $bluegreen-dark;
+    }
+  }
 }
 
 
@@ -16,8 +21,8 @@ body{
 .container {
 
   padding: 4px 40px 4px 40px;
-  outline: 30px solid white;
-  outline: 30px solid white;
+
+
   background: white;
 
 }

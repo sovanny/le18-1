@@ -35,7 +35,7 @@ body {
     max-width: 100%;
     max-height: 100%; }
 
-.col-md-4 {
+.col-lg-4 {
   border: 1px solid white; }
 
 .tba {
@@ -44,230 +44,179 @@ body {
     opacity: 0.7;
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s; }
-    .tba:hover h2 {
+    .tba:hover .tba-text {
       opacity: 1; }
-  .tba h2 {
+  .tba .tba-text {
     font-size: 4rem;
     position: relative;
     top: 40%;
     font-family: "Roboto Mono", monospace;
     font-weight: 600; }
-    .tba h2:after {
+    .tba .tba-text:after {
       transform: translateY(-40%); }
 
-/**
-.artist-1 {
-  background: $green-light;
-  background-size: contain;
-
-}
-
-.artist-2 {
-
-  background: $bluegreen-darker;
-  background-size: contain;
-
-}
-
-.artist-3 {
-  background:$bluegreen-light;
-  background-size: contain;
-
-}
-
-.artist-4 {
-  background: $bluegreen-dark;
-  background-size: contain;
-}
-
-.artist-5 {
-  background:$green-dark;
-  background-size: contain;
-}
-
-.artist-6 {
-  background:$green-medium;
-  background-size: contain;
-}
-
-/**
-.artist-7 {
-  background: url("../img/Instagram-rutor-7.jpg");
-  background-size: contain;
-}
-
-.artist-8 {
-  background: url("../img/Instagram-rutor-8.jpg");
-  background-size: contain;
-}
-
-.artist-9 {
-  background: url("../img/Instagram-rutor-9.jpg");
-  background-size: contain;
-}
-
-.artist-10 {
-  background: url("../img/Instagram-rutor-10.jpg");
-  background-size: contain;
-}
-
-.artist-11 {
-  background: url("../img/Instagram-rutor-11.jpg");
-  background-size: contain;
-}
-
-.artist-12 {
-  background: url("../img/Instagram-rutor-12.jpg");
-  background-size: contain;
-}**/
-/**
 figure {
   position: relative;
   float: left;
   overflow: hidden;
   margin-bottom: 0;
-
   text-align: center;
-  cursor: pointer;
-  img {
+  cursor: pointer; }
+  figure img {
     position: relative;
     display: block;
-
     max-width: 100%;
-    opacity: 1;
-  }
-  figcaption {
-    padding: 2em;
+    opacity: 1; }
+  figure figcaption {
     color: #fff;
     background: #fff;
     text-transform: uppercase;
-    font-size: 1.25em;
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    &::before,
-    figure figcaption::after {
-      pointer-events: none;
-
-    }
-
-  }
-  figcaption,
-  figcaption > a {
+    backface-visibility: hidden; }
+    figure figcaption::before,
+    figure figcaption figure figcaption::after {
+      pointer-events: none; }
+  figure figcaption,
+  figure figcaption > a {
     position: absolute;
     width: 100%;
-    height: 100%;
-  }
-  h2 {
-    font-family: $poppins;
-    font-weight: 300;
-  }
-  h2,
-  p {
-    margin: 0;
-  }
-  p {
+    height: 100%; }
+  figure h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300; }
+  figure h2,
+  figure p {
+    margin: 0; }
+  figure p {
     letter-spacing: 1px;
-    font-size: 68.5%;
-  }
-}
+    font-size: 68.5%; }
 
 /*---------------*/
 /***** Effect *****/
 /*---------------*/
-/**
-figure {
-  figcaption {
-    top: auto;
-    bottom: 0;
-    padding: 1em;
-    height: 3.75em;
-    color: #1F3437;
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-  h2 {
-    float: left;
-    display: inline-block;
-  }
-  p.icon-links a {
-    float: right;
-    color: #0E664E;
-    font-size: 1.4em;
-  }
-  p.description {
-    font-family: $robotomono;
-    position: absolute;
-    bottom: 8em;
-    padding: 2em;
-    color: #fff;
-    text-transform: none;
-    font-size: 90%;
-    opacity: 0;
-    -webkit-backface-visibility: hidden;
-    -webkit-transition: opacity 0.35s;
-    transition: opacity 0.35s;
-  }
-  h2,
-  p.icon-links a {
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
-    -webkit-transform: translate3d(0, 200%, 0);
-    transform: translate3d(0, 200%, 0);
-  }
-  p.icon-links a {
-    display: inline-block;
-    padding: 5px 5px;
-  }
+figure figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 3.75em;
+  font-size: 1.25em;
+  color: #1F3437;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0); }
+figure h2 {
+  float: left;
+  display: inline-block; }
+figure p.icon-links a {
+  float: right;
+  color: #0E664E;
+  font-size: 1.4em; }
+figure p.description {
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  bottom: 5em;
+  padding: 1.4em;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  /* Fix for Chrome 37.0.2062.120 (Mac) */
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s; }
+figure h2,
+figure p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0); }
+figure p.icon-links a {
+  display: inline-block;
+  padding: 5px 5px; }
+figure:hover p.icon-links a:hover, figure:hover p.icon-links a:focus {
+  color: #A0D1BB; }
+figure:hover p.description {
+  opacity: 1; }
+figure:hover img {
+  opacity: 0.8;
+  filter: brightness(50%);
+  -webkit-transform: translateY(-3.75em);
+  transform: translateY(-3.75em);
+  -webkit-transition-property: -webkit-transform, opacity;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-in;
+  transition-property: transform, opacity, filter;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in; }
+figure:hover figcaption, figure:hover h2, figure:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+figure:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s; }
+figure:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s; }
+figure:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s; }
+figure:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s; }
 
-  &:hover p.icon-links a:hover,
-  &:hover p.icon-links a:focus {
-    color: #A0D1BB;
-  }
+.artist-1 h2 {
+  padding: 5px;
+  font-size: 1.6rem; }
+.artist-1 p.description {
+  font-size: 80%;
+  margin-left: -1em;
+  color: white; }
 
-  &:hover p.description {
-    opacity: 1;
-  }
-  &:hover img {
-    transition: opacity .6s;
-    opacity: 0.6;
-    -webkit-transition: -webkit-transform 0.35s;
-    transition: transform 0.35s;
-    -webkit-transform: translateY(-3.75em);
-    transform: translateY(-3.75em);
+.artist-2 {
+  background: url("../img/Instagram-rutor-2.jpg");
+  background-size: contain; }
 
-  }
+.artist-3 {
+  background: url("../img/Instagram-rutor-3.jpg");
+  background-size: contain; }
 
-  &:hover figcaption,
-  &:hover h2,
-  &:hover p.icon-links a {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+.artist-4 {
+  background: url("../img/Instagram-rutor-4.jpg");
+  background-size: contain; }
 
-  &:hover h2 {
-    -webkit-transition-delay: 0.05s;
-    transition-delay: 0.05s;
-  }
+.artist-5 {
+  background: url("../img/Instagram-rutor-5.jpg");
+  background-size: contain; }
 
-  &:hover p.icon-links a:nth-child(3) {
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-  }
+.artist-6 {
+  background: url("../img/Instagram-rutor-6.jpg");
+  background-size: contain; }
 
-  &:hover p.icon-links a:nth-child(2) {
-    -webkit-transition-delay: 0.15s;
-    transition-delay: 0.15s;
-  }
+.artist-7 {
+  background: url("../img/Instagram-rutor-7.jpg");
+  background-size: contain; }
 
-  &:hover p.icon-links a:first-child {
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-  }
+.artist-8 {
+  background: url("../img/Instagram-rutor-8.jpg");
+  background-size: contain; }
 
-}
-**/
+.artist-9 {
+  background: url("../img/Instagram-rutor-9.jpg");
+  background-size: contain; }
+
+.artist-10 {
+  background: url("../img/Instagram-rutor-10.jpg");
+  background-size: contain; }
+
+.artist-11 {
+  background: url("../img/Instagram-rutor-11.jpg");
+  background-size: contain; }
+
+.artist-12 {
+  background: url("../img/Instagram-rutor-12.jpg");
+  background-size: contain; }
+
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {
   figure p.icon-links a {
@@ -277,8 +226,16 @@ figure {
     max-width: 10vw; }
 
   #title-line-up h1 {
-    font-size: 5rem; }
-  #title-line-up h2 {
-    font-size: 3rem; } }
+    font-size: 5rem; } }
+/****Only on tablet******/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    padding: 100px; }
+
+  figure p.description {
+    padding: 2em 4em 8em 4em; } }
+@media (max-width: 768px) {
+  figure p.description {
+    padding: 1.4em 1.4em 0.5em 1.4em; } }
 
 /*# sourceMappingURL=line-up.css.map */
