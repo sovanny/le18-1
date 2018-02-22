@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Line-up 2018</title>
-    <link rel="icon" href="img/pin-b-mini.png" type="image/x-icon" />
+    <link rel="icon" href="leIcon.ico" type="image/x-icon"/>
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 
 
@@ -27,14 +27,16 @@
 
     <div class="row no-gutters">
 
-        <div  class="random-color artist-1 col-lg-4">
+        <div class="random-color artist-1 col-lg-4">
             <figure data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-delay="100">
-                <img src="./img/agnes.png" alt="Agnes Matsdotter"/>
+                <img src="./img/agnes-scaled.png" alt="Agnes Matsdotter"/>
                 <figcaption>
                     <h2>Agnes Matsdotter</h2>
                     <p class="icon-links">
-                        <a href="https://open.spotify.com/artist/6C0HjwmlFfHqrpxeQctQWi" target="_blank"><i class="fab fa-spotify"></i></a>
-                        <a href="https://www.facebook.com/agnesmatsdottermusik/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://open.spotify.com/artist/6C0HjwmlFfHqrpxeQctQWi" target="_blank"><i
+                                class="fab fa-spotify"></i></a>
+                        <a href="https://www.facebook.com/agnesmatsdottermusik/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
 
                     </p>
                     <p class="description">Med nyskapande popproduktioner som injicerats
@@ -47,31 +49,46 @@
             </figure>
         </div>
 
-        <div class="col-lg-4">
-            <div class="random-color tba">
-                <h2 class="tba-text" data-aos="fade-in"  data-aos-delay="300" >TBA</h2>
-            </div>
+        <div class="random-color artist-2 col-lg-4">
+            <figure data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-delay="100">
+                <img src="./img/martha-frans.jpg" alt="Märtha Frans"/>
+                <figcaption>
+                    <h2>Märtha Frans</h2>
+                    <p class="icon-links">
+                        <a href="https://www.instagram.com/martha.frans/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://open.spotify.com/artist/2JO4JkHfgUkUObbOt0YBDI" target="_blank"><i
+                                class="fab fa-spotify"></i></a>
+                        <a href="https://www.facebook.com/maerthafrans/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                    </p>
+                    <p class="description">Märtha Frans är den elektroniska popduon som tagit Norrköping med storm redan
+                        från sin start 2016. Med hits som Faraway och Ärligt talat i bagaget kommer nu även B2. Märtha
+                        Frans hälsar: Get ready to dance.</p>
+                </figcaption>
+            </figure>
         </div>
         <div class="col-lg-4">
             <div class="random-color tba">
-                <h2 class="tba-text" data-aos="fade-in" data-aos-delay="500" >TBA</h2>
+                <h2 class="tba-text" data-aos="fade-in" data-aos-delay="500">TBA</h2>
             </div>
         </div>
     </div>
     <div class="row no-gutters">
         <div class="col-lg-4">
             <div class="random-color tba">
-                <h2 class="tba-text" data-aos="fade-in"  data-aos-delay="500" >TBA</h2>
+                <h2 class="tba-text" data-aos="fade-in" data-aos-delay="500">TBA</h2>
             </div>
         </div>
         <div class="col-lg-4">
             <div class="random-color tba">
-                <h2 class="tba-text" data-aos="fade-in" data-aos-delay="300" >TBA</h2>
+                <h2 class="tba-text" data-aos="fade-in" data-aos-delay="300">TBA</h2>
             </div>
         </div>
         <div class="col-lg-4">
             <div class="random-color tba">
-                <h2 class="tba-text" data-aos="fade-in" data-aos-delay="100" >TBA</h2>
+                <h2 class="tba-text" data-aos="fade-in" data-aos-delay="100">TBA</h2>
             </div>
         </div>
     </div>
@@ -129,9 +146,9 @@
 
             $(".random-color").height(height);
             $(".random-color").each(function () {
-                i = Math.floor(Math.random()*6);
+                i = Math.floor(Math.random() * 6);
                 $(this).css({backgroundColor: colors[i][0]});
-                if($(this).has(".tba-text")){
+                if ($(this).has(".tba-text")) {
                     $(this).css({color: colors[i][1]});
                 }
 

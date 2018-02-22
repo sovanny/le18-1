@@ -236,14 +236,18 @@ figure {
     font-size: 80%;
 
     margin-left: -1em;
-    color: white;
+    //color: white;
   }
 }
 
 .artist-2 {
+  h2 {
+    padding: 3px;
+    font-size: 1.8rem;
 
-  background: url("../img/Instagram-rutor-2.jpg");
-  background-size: contain;
+  }
+  //background: url("../img/Instagram-rutor-2.jpg");
+  //background-size: contain;
 }
 
 .artist-3 {
