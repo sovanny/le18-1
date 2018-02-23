@@ -128,7 +128,7 @@ figure p.icon-links a {
   transform: translate3d(0, 200%, 0); }
 figure p.icon-links a {
   display: inline-block;
-  padding: 5px 5px; }
+  padding: 8px 8px; }
 figure:hover p.icon-links a:hover, figure:hover p.icon-links a:focus {
   color: #A0D1BB; }
 figure:hover p.description {
@@ -167,9 +167,11 @@ figure:hover p.icon-links a:first-child {
   font-size: 80%;
   margin-left: -1em; }
 
-.artist-2 h2 {
-  padding: 3px;
-  font-size: 1.8rem; }
+.artist-2 {
+  ackground: url("../img/Instagram-rutor-2.jpg"); }
+  .artist-2 h2 {
+    padding: 3px;
+    font-size: 1.8rem; }
 
 .artist-3 {
   background: url("../img/Instagram-rutor-3.jpg");

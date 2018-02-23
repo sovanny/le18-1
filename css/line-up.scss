@@ -68,9 +68,10 @@ body {
   }
 }
 
-.text-accent{
+.text-accent {
   color: $yellow;
 }
+
 figure {
   position: relative;
   float: left;
@@ -172,7 +173,7 @@ figure {
   }
   p.icon-links a {
     display: inline-block;
-    padding: 5px 5px;
+    padding: 8px 8px;
   }
 
   &:hover p.icon-links a:hover,
@@ -228,8 +229,6 @@ figure {
 
 }
 
-
-
 .artist-1 {
 
   h2 {
@@ -243,15 +242,15 @@ figure {
     margin-left: -1em;
     //color: white;
   }
+
 }
 
 .artist-2 {
   h2 {
     padding: 3px;
     font-size: 1.8rem;
-
   }
-  //background: url("../img/Instagram-rutor-2.jpg");
+  ackground: url("../img/Instagram-rutor-2.jpg");
   //background-size: contain;
 }
 
@@ -304,8 +303,6 @@ figure {
   background: url("../img/Instagram-rutor-12.jpg");
   background-size: contain;
 }
-
-
 
 #flower-footer {
   margin-top: -18%;
@@ -363,16 +360,12 @@ figure {
 
 }
 
-
-
-
 /*************DESKTOP LAYOUT*************/
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   figure p.icon-links a {
     padding: 5px 10px;
   }
-
 
 }
 
