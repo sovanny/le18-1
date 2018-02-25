@@ -11,7 +11,7 @@ body {
   padding-bottom: 18vw;
   outline: 30px solid white;
   background: white;
-  min-height: 70vh; }
+  min-height: 85vh; }
 
 #title {
   text-align: center;
@@ -66,9 +66,9 @@ body {
     opacity: 0.7;
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s; }
-  .ticket:hover .fun-btn {
+  .ticket:hover #fun-btn {
     color: #026666; }
-  .ticket .fun-btn {
+  .ticket #fun-btn {
     font-family: "Roboto Mono", monospace;
     font-weight: 600;
     background: none;
@@ -79,9 +79,11 @@ body {
     text-transform: inherit;
     transition: color 1s;
     color: #ffdc30; }
-    .ticket .fun-btn:hover {
+    .ticket #fun-btn:hover {
       animation: sawtooth 0.35s infinite linear;
       background: linear-gradient(45deg, #ffdc30 0.5em, transparent 0.5em) 0 0/1em 1em, linear-gradient(-45deg, #ffdc30 0.5em, transparent 0.5em) 0 0/1em 1em; }
+    .ticket #fun-btn:focus {
+      outline: 0; }
 @keyframes sawtooth {
   100% {
     background-position: 1em 0; } }

@@ -17,7 +17,7 @@ body {
   padding-bottom: 18vw;
   outline: 30px solid white;
   background: white;
-  min-height: 70vh;
+  min-height: 85vh;
 
 }
 
@@ -91,14 +91,14 @@ body {
 
 
       }
-    .fun-btn{
+    #fun-btn{
       color: $bluegreen-dark;
     }
   }
 
 
 
-  .fun-btn{
+  #fun-btn{
 
     font-family: $robotomono;
     font-weight: 600;
@@ -118,6 +118,9 @@ body {
       background: linear-gradient(45deg, $color 0.5em, transparent 0.5em) 0 0 / 1em 1em
       , linear-gradient(-45deg, $color 0.5em, transparent 0.5em) 0 0 / 1em 1em;
 
+    }
+    &:focus {
+      outline: 0;
     }
   }
 
