@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css.map" afterPath="$PROJECT_DIR$/css/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.scss" afterPath="$PROJECT_DIR$/css/index.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tickets.css" afterPath="$PROJECT_DIR$/css/tickets.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tickets.css.map" afterPath="$PROJECT_DIR$/css/tickets.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tickets.scss" afterPath="$PROJECT_DIR$/css/tickets.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickets.html" afterPath="$PROJECT_DIR$/tickets.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,10 +79,9 @@
       <file leaf-file-name="line-up.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/line-up.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2958">
-              <caret line="233" column="6" lean-forward="false" selection-start-line="233" selection-start-column="6" selection-end-line="233" selection-end-column="6" />
+            <state relative-caret-position="520">
+              <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="18" />
               <folding>
-                <element signature="e#1028#1735#0" expanded="false" />
                 <element signature="e#1821#2107#0" expanded="false" />
                 <element signature="e#4304#4386#0" expanded="false" />
                 <element signature="e#4398#4480#0" expanded="false" />
@@ -129,8 +122,8 @@
       <file leaf-file-name="tickets.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/tickets.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="357">
+              <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -372,14 +365,7 @@
       <workItem from="1519066257823" duration="628000" />
       <workItem from="1519291245650" duration="3306000" />
       <workItem from="1519386920312" duration="2833000" />
-      <workItem from="1519592192824" duration="1728000" />
-    </task>
-    <task id="LOCAL-00017" summary="..add files">
-      <created>1516865724752</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1516865724752</updated>
+      <workItem from="1519592192824" duration="1826000" />
     </task>
     <task id="LOCAL-00018" summary="..add files">
       <created>1516865801167</created>
@@ -717,11 +703,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519388936465</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="tickets">
+      <created>1519593923089</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1519593923090</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206479000" />
+    <option name="totallyTimeSpent" value="206577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -790,7 +783,6 @@
         <state relative-caret-position="459">
           <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
-            <element signature="e#1028#1735#0" expanded="false" />
             <element signature="e#1821#2107#0" expanded="false" />
             <element signature="e#4304#4386#0" expanded="false" />
             <element signature="e#4398#4480#0" expanded="false" />
@@ -873,7 +865,6 @@
         <state relative-caret-position="442">
           <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
-            <element signature="e#1028#1735#0" expanded="false" />
             <element signature="e#1821#2107#0" expanded="false" />
             <element signature="e#4304#4386#0" expanded="false" />
             <element signature="e#4398#4480#0" expanded="false" />
@@ -1113,28 +1104,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/line-up.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="233" column="6" lean-forward="false" selection-start-line="233" selection-start-column="6" selection-end-line="233" selection-end-column="6" />
-          <folding>
-            <element signature="e#1028#1735#0" expanded="false" />
-            <element signature="e#1821#2107#0" expanded="false" />
-            <element signature="e#4304#4386#0" expanded="false" />
-            <element signature="e#4398#4480#0" expanded="false" />
-            <element signature="e#4492#4574#0" expanded="false" />
-            <element signature="e#4586#4668#0" expanded="false" />
-            <element signature="e#4680#4762#0" expanded="false" />
-            <element signature="e#4774#4856#0" expanded="false" />
-            <element signature="e#4868#4950#0" expanded="false" />
-            <element signature="e#4963#5046#0" expanded="false" />
-            <element signature="e#5059#5142#0" expanded="false" />
-            <element signature="e#5155#5238#0" expanded="false" />
-            <element signature="e#5255#6008#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1162,10 +1131,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/line-up.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="18" />
+          <folding>
+            <element signature="e#1821#2107#0" expanded="false" />
+            <element signature="e#4304#4386#0" expanded="false" />
+            <element signature="e#4398#4480#0" expanded="false" />
+            <element signature="e#4492#4574#0" expanded="false" />
+            <element signature="e#4586#4668#0" expanded="false" />
+            <element signature="e#4680#4762#0" expanded="false" />
+            <element signature="e#4774#4856#0" expanded="false" />
+            <element signature="e#4868#4950#0" expanded="false" />
+            <element signature="e#4963#5046#0" expanded="false" />
+            <element signature="e#5059#5142#0" expanded="false" />
+            <element signature="e#5155#5238#0" expanded="false" />
+            <element signature="e#5255#6008#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/tickets.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="357">
+          <caret line="111" column="20" lean-forward="false" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
           <folding />
         </state>
       </provider>

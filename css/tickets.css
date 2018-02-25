@@ -78,6 +78,7 @@ body {
     padding: 0.7em 1.5em;
     text-transform: inherit;
     transition: color 1s;
+    cursor: pointer;
     color: #ffdc30; }
     .ticket #fun-btn:hover {
       animation: sawtooth 0.35s infinite linear;
