@@ -1,5 +1,5 @@
 
-$("#fun-btn").on('click', function () {
+$(".fun-btn").on('click', function () {
     var win = window.open('https://billetto.se/e/location-east-biljetter-260485', '_blank');
     if (win) {
         //Browser has allowed it to be opened

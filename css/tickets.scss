@@ -1,5 +1,8 @@
 @import "variables";
 
+$forkop-color-1: $green-dark;
+$forkop-color-2: $bluegreen-light;
+
 $box-size: 360px;
 html, body {
   height: 100%;
@@ -97,14 +100,17 @@ body {
 
 
       }
-    #fun-btn{
+    #early-btn{
       color: $bluegreen-dark;
+    }
+    #forkop-btn{
+      color: $forkop-color-1
     }
   }
 
 
 
-  #fun-btn{
+  .fun-btn{
 
     font-family: $robotomono;
     font-weight: 600;
@@ -136,7 +142,20 @@ body {
       background-position: 1em 0;
     }
   }
+
+
+  #forkop-btn{
+    color: $forkop-color-2;
+
+    &:hover {
+      animation: sawtooth 0.35s infinite linear;
+      background: linear-gradient(45deg, $forkop-color-2 0.5em, transparent 0.5em) 0 0 / 1em 1em
+      , linear-gradient(-45deg, $forkop-color-2 0.5em, transparent 0.5em) 0 0 / 1em 1em;
+
+    }
+  }
 }
+
 
 #flower-footer {
 
