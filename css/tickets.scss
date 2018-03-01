@@ -2,6 +2,7 @@
 
 $forkop-color-1: $green-dark;
 $forkop-color-2: $bluegreen-light;
+$early-color: $yellow;
 
 $box-size: 360px;
 html, body {
@@ -123,17 +124,37 @@ body {
     transition: color 1s;
     cursor: pointer;
 
-    $color: $yellow;;
-    color: $color;
 
-    &:hover {
-      animation: sawtooth 0.35s infinite linear;
-      background: linear-gradient(45deg, $color 0.5em, transparent 0.5em) 0 0 / 1em 1em
-      , linear-gradient(-45deg, $color 0.5em, transparent 0.5em) 0 0 / 1em 1em;
+    color: $early-color;
 
-    }
+
     &:focus {
       outline: 0;
+    }
+  }
+  #forkop-btn{
+    color: $forkop-color-2;
+  }
+
+  &:hover{
+    img{
+      opacity: 0.7;
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+
+
+    }
+    #early-btn{
+      color: $bluegreen-dark;
+      animation: sawtooth 0.35s infinite linear;
+      background: linear-gradient(45deg, $early-color 0.5em, transparent 0.5em) 0 0 / 1em 1em
+      , linear-gradient(-45deg, $early-color 0.5em, transparent 0.5em) 0 0 / 1em 1em;
+    }
+    #forkop-btn{
+      color: $forkop-color-1;
+      animation: sawtooth 0.35s infinite linear;
+      background: linear-gradient(45deg, $forkop-color-2 0.5em, transparent 0.5em) 0 0 / 1em 1em
+      , linear-gradient(-45deg, $forkop-color-2 0.5em, transparent 0.5em) 0 0 / 1em 1em;
     }
   }
 
@@ -144,16 +165,7 @@ body {
   }
 
 
-  #forkop-btn{
-    color: $forkop-color-2;
 
-    &:hover {
-      animation: sawtooth 0.35s infinite linear;
-      background: linear-gradient(45deg, $forkop-color-2 0.5em, transparent 0.5em) 0 0 / 1em 1em
-      , linear-gradient(-45deg, $forkop-color-2 0.5em, transparent 0.5em) 0 0 / 1em 1em;
-
-    }
-  }
 }
 
 
