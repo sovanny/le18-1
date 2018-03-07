@@ -41,6 +41,7 @@ body {
 
 .col-lg-4 {
   border: 1px solid white;
+  z-index: 100;
 
 }
 
@@ -267,8 +268,12 @@ figure {
 }
 
 .artist-4 {
-  background: url("../img/Instagram-rutor-4.jpg");
-  background-size: contain;
+  h2{
+    float: inherit;
+  }
+  //background: url("../img/Instagram-rutor-4.jpg");
+  //background-size: contain;
+
 }
 
 .artist-5 {
