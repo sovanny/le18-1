@@ -161,6 +161,9 @@ body {
     .carousel-item .martha-caption h5 {
       font-size: 1rem; }
 
+  #partners h1 {
+    font-size: 2rem; }
+
   #flower-footer #logo-bottom #footer-contact-row {
     visibility: hidden;
     margin-top: 0; } }
