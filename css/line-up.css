@@ -194,7 +194,10 @@ figure:hover p.icon-links a:first-child {
   background-size: contain; }
 
 .artist-4 h2 {
-  float: inherit; }
+  padding: 3px;
+  font-size: 1.8rem; }
+.artist-4 .description {
+  padding: 1.4em 1.3em; }
 
 .artist-5 {
   background: url("../img/Instagram-rutor-5.jpg");

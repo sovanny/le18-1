@@ -268,8 +268,12 @@ figure {
 }
 
 .artist-4 {
-  h2{
-    float: inherit;
+  h2 {
+    padding: 3px;
+    font-size: 1.8rem;
+  }
+  .description{
+    padding: 1.4em 1.3em;
   }
   //background: url("../img/Instagram-rutor-4.jpg");
   //background-size: contain;
