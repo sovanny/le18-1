@@ -53,6 +53,10 @@ body {
     max-width: 100%;
     position: relative;
     display: block; }
+  .ticket h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffdc30; }
   .ticket h2 {
     margin-top: 25%;
     font-family: "Roboto Mono", monospace;

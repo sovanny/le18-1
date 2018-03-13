@@ -88,6 +88,10 @@ figure {
     max-width: 100%;
     opacity: 1;
   }
+  h2{
+    padding:  0.2rem 0px;
+    font-size: 1.6rem;
+  }
   figcaption {
     // Ta bort markerbar text
     -webkit-touch-callout: none; /* iOS Safari */
@@ -95,8 +99,9 @@ figure {
     -khtml-user-select: none; /* Konqueror HTML */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                     supported by Chrome and Opera */
 
     color: #fff;
     background: #fff;
@@ -160,12 +165,11 @@ figure {
   }
   p.description {
 
-
     font-family: $robotomono;
-    margin-left: -1em;
+    //margin-left: -1em;
     position: absolute;
     bottom: 5em;
-    padding:  1.4em;
+    padding: 1.4em;
     color: #fff;
     text-transform: none;
     font-size: 80%;
@@ -242,19 +246,18 @@ figure {
 .artist-1 {
 
   h2 {
-    padding: 5px;
-    font-size: 1.6rem;
+    //  padding: 5px;
+    // font-size: 1.6rem;
   }
   background: url("../img/Instagram-rutor-1.jpg");
   background-size: contain;
-
 
 }
 
 .artist-2 {
   h2 {
-    padding: 3px;
-    font-size: 1.8rem;
+    //  padding: 3px;
+    // font-size: 1.8rem;
   }
   background: url("../img/Instagram-rutor-2.jpg");
   background-size: contain;
@@ -264,16 +267,15 @@ figure {
   background: url("../img/Instagram-rutor-3.jpg");
   background-size: contain;
 
-
 }
 
 .artist-4 {
   h2 {
-    padding: 3px;
-    font-size: 1.8rem;
+    // padding: 3px;
+    //font-size: 1.8rem;
   }
-  .description{
-    padding: 1.4em 1.3em;
+  .description {
+    //  padding: 1.4em 1.3em;
   }
   //background: url("../img/Instagram-rutor-4.jpg");
   //background-size: contain;
@@ -281,8 +283,12 @@ figure {
 }
 
 .artist-5 {
-  background: url("../img/Instagram-rutor-5.jpg");
-  background-size: contain;
+  .description{
+    font-size: 75%;
+    padding-bottom: 1em;
+  }
+  //background: url("../img/Instagram-rutor-5.jpg");
+  //background-size: contain;
 }
 
 .artist-6 {
@@ -395,22 +401,60 @@ figure {
     padding: 2em 4em 8em 4em;
 
   }
+
 }
 
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  figure figcaption {
+    padding: 20px 10px 20px 10px;
+    h2 {
+      padding: 5px 3px;
+      font-size: 1.1em;
+    }
+  }
+  figure p.description {
+
+    padding: 1.2em;
+    font-size: 70%;
+
+  }
+  .artist-5 {
+    .description{
+      padding: 1.1em 0.8em;
+      font-size: 65%;
+
+    }
+  }
+
+}
+// TODO: gör script att beräkna positionen för p.description
 @media (max-width: 768px) {
+  #title-line-up h2 {
+    padding: 2px;
+    font-size: 1.5em;
+  }
 
   figure p.description {
 
-    padding: 1.4em 1.4em 0.5em 1.4em;
+    padding: 1.2rem;
+    font-size: 80%;
 
   }
+
+
+
   figure p.icon-links a {
 
     padding: 4px 8px;
   }
 
-  figure figcaption{
+  figure figcaption {
     padding: 20px 10px 20px 10px;
+    h2 {
+      padding: 5px 3px;
+      font-size: 1.2em;
+    }
   }
 
   #flower-footer {
@@ -421,5 +465,31 @@ figure {
       }
     }
 
+  }
+}
+
+// really small screens
+@media (max-width: 568px) {
+
+  figure p.description {
+
+    padding: 1em 1em 0.5em 1em;
+    font-size: 66%;
+
+  }
+
+  .artist-5 {
+    .description{
+      font-size: 62%;
+      margin-bottom: 1em;
+    }
+  }
+
+  figure figcaption {
+    padding: 20px 10px 20px 10px;
+    h2 {
+      padding: 5px 3px;
+      font-size: 1.1em;
+    }
   }
 }

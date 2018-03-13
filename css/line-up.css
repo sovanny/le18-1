@@ -63,6 +63,9 @@ figure {
     display: block;
     max-width: 100%;
     opacity: 1; }
+  figure h2 {
+    padding: 0.2rem 0px;
+    font-size: 1.6rem; }
   figure figcaption {
     -webkit-touch-callout: none;
     /* iOS Safari */
@@ -76,7 +79,7 @@ figure {
     /* Internet Explorer/Edge */
     user-select: none;
     /* Non-prefixed version, currently
-               supported by Chrome and Opera */
+                                     supported by Chrome and Opera */
     color: #fff;
     background: #fff;
     text-transform: uppercase;
@@ -123,7 +126,6 @@ figure p.icon-links a {
   font-size: 1.4em; }
 figure p.description {
   font-family: "Roboto Mono", monospace;
-  margin-left: -1em;
   position: absolute;
   bottom: 5em;
   padding: 1.4em;
@@ -178,30 +180,18 @@ figure:hover p.icon-links a:first-child {
 .artist-1 {
   background: url("../img/Instagram-rutor-1.jpg");
   background-size: contain; }
-  .artist-1 h2 {
-    padding: 5px;
-    font-size: 1.6rem; }
 
 .artist-2 {
   background: url("../img/Instagram-rutor-2.jpg");
   background-size: contain; }
-  .artist-2 h2 {
-    padding: 3px;
-    font-size: 1.8rem; }
 
 .artist-3 {
   background: url("../img/Instagram-rutor-3.jpg");
   background-size: contain; }
 
-.artist-4 h2 {
-  padding: 3px;
-  font-size: 1.8rem; }
-.artist-4 .description {
-  padding: 1.4em 1.3em; }
-
-.artist-5 {
-  background: url("../img/Instagram-rutor-5.jpg");
-  background-size: contain; }
+.artist-5 .description {
+  font-size: 75%;
+  padding-bottom: 1em; }
 
 .artist-6 {
   background: url("../img/Instagram-rutor-6.jpg");
@@ -278,18 +268,54 @@ figure:hover p.icon-links a:first-child {
 
   figure p.description {
     padding: 2em 4em 8em 4em; } }
-@media (max-width: 768px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  figure figcaption {
+    padding: 20px 10px 20px 10px; }
+    figure figcaption h2 {
+      padding: 5px 3px;
+      font-size: 1.1em; }
+
   figure p.description {
-    padding: 1.4em 1.4em 0.5em 1.4em; }
+    padding: 1.2em;
+    font-size: 70%; }
+
+  .artist-5 .description {
+    padding: 1.1em 0.8em;
+    font-size: 65%; } }
+@media (max-width: 768px) {
+  #title-line-up h2 {
+    padding: 2px;
+    font-size: 1.5em; }
+
+  figure p.description {
+    padding: 1.2rem;
+    font-size: 80%; }
 
   figure p.icon-links a {
     padding: 4px 8px; }
 
   figure figcaption {
     padding: 20px 10px 20px 10px; }
+    figure figcaption h2 {
+      padding: 5px 3px;
+      font-size: 1.2em; }
 
   #flower-footer #logo-bottom #footer-contact-row {
     visibility: hidden;
     margin-top: 0; } }
+@media (max-width: 568px) {
+  figure p.description {
+    padding: 1em 1em 0.5em 1em;
+    font-size: 66%; }
+
+  .artist-5 .description {
+    font-size: 62%;
+    margin-bottom: 1em; }
+
+  figure figcaption {
+    padding: 20px 10px 20px 10px; }
+    figure figcaption h2 {
+      padding: 5px 3px;
+      font-size: 1.1em; } }
 
 /*# sourceMappingURL=line-up.css.map */
