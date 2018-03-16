@@ -24,7 +24,27 @@ body {
 
     }
   }
+  .anton-caption{
+    font-family: $robotomono;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    bottom: 20px;
+    right: 4%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: right;
+    h5 {
+      font-size: 5.3rem;
+    }
+    h3 {
+      text-transform: uppercase;
+      font-size: 3rem;
 
+    }
+  }
   .agnes-caption {
     font-family: $robotomono;
     position: absolute;
@@ -231,6 +251,16 @@ body {
     .martha-caption{
       display: block !important;
       bottom: 10px;
+      h3 {
+        font-size: 1rem;
+      }
+      h5 {
+        font-size: 1rem;
+      }
+    }
+    .anton-caption{
+      display: block !important;
+      top: 1%;
       h3 {
         font-size: 1rem;
       }
