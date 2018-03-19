@@ -88,10 +88,7 @@ figure {
     max-width: 100%;
     opacity: 1;
   }
-  h2{
-    padding:  0.2rem 0px;
-    font-size: 1.6rem;
-  }
+
   figcaption {
     // Ta bort markerbar text
     -webkit-touch-callout: none; /* iOS Safari */
@@ -132,7 +129,7 @@ figure {
   }
   p {
     letter-spacing: 1px;
-    font-size: 68.5%;
+    //font-size: 68.5%;
   }
 }
 
@@ -144,9 +141,9 @@ figure {
   figcaption {
     top: auto;
     bottom: 0;
-    padding: 1em;
-    height: 3.75em;
-    font-size: 1.25em;
+    padding: 1.25rem;
+    height: 4rem;
+    font-size: 1.25rem;
     color: #1F3437;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
@@ -156,20 +153,20 @@ figure {
   h2 {
     float: left;
     display: inline-block;
-
+    font-size: 1.5rem;
   }
   p.icon-links a {
     float: right;
     color: #0E664E;
-    font-size: 1.4em;
+    //font-size: 1.4em;
   }
   p.description {
 
     font-family: $robotomono;
-    //margin-left: -1em;
+    left: 0;
     position: absolute;
-    bottom: 5em;
-    padding: 1.4em;
+    //bottom: 5em;
+    padding: 0 1.4em;
     color: #fff;
     text-transform: none;
     font-size: 80%;
@@ -187,7 +184,10 @@ figure {
   }
   p.icon-links a {
     display: inline-block;
-    padding: 8px 8px;
+    padding: 0 0.5rem;
+    margin-top: -0.1rem;
+    padding-bottom: 0.1rem;
+
   }
 
   &:hover p.icon-links a:hover,
@@ -245,20 +245,25 @@ figure {
 
 .artist-1 {
 
-  h2 {
-    //  padding: 5px;
-    // font-size: 1.6rem;
-  }
   background: url("../img/Instagram-rutor-1.jpg");
   background-size: contain;
+  figcaption {
+    padding: 1.325rem 1.25rem;
+    h2{
+      font-size: 1.35rem;
+    }
+    p.icon-links a {
+      font-size: 1.15rem;
+      //padding: 0 0.5rem;
+      //margin-top: -0.1rem;
+
+    }
+  }
 
 }
 
 .artist-2 {
-  h2 {
-    //  padding: 3px;
-    // font-size: 1.8rem;
-  }
+
   background: url("../img/Instagram-rutor-2.jpg");
   background-size: contain;
 }
@@ -270,28 +275,22 @@ figure {
 }
 
 .artist-4 {
-  h2 {
-    // padding: 3px;
-    //font-size: 1.8rem;
-  }
-  .description {
-    //  padding: 1.4em 1.3em;
-  }
+
   //background: url("../img/Instagram-rutor-4.jpg");
   //background-size: contain;
 
 }
 
 .artist-5 {
-  .description{
-    font-size: 75%;
-    padding-bottom: 1em;
+  .description {
+    padding: 0 0.8em;
   }
   //background: url("../img/Instagram-rutor-5.jpg");
   //background-size: contain;
 }
 
 .artist-6 {
+
   background: url("../img/Instagram-rutor-6.jpg");
   background-size: contain;
 }
@@ -382,81 +381,28 @@ figure {
 
 }
 
-/*************DESKTOP LAYOUT*************/
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  figure p.icon-links a {
-    padding: 5px 10px;
-  }
+// medium devices
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
+  figure p.description {
+    font-size: 66%;
+  }
 }
 
-/****Only on tablet******/
+// medium-small devices
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
     padding: 100px;
   }
-  figure p.description {
-
-    padding: 2em 4em 8em 4em;
-
-  }
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  figure figcaption {
-    padding: 20px 10px 20px 10px;
-    h2 {
-      padding: 5px 3px;
-      font-size: 1.1em;
-    }
-  }
-  figure p.description {
-
-    padding: 1.2em;
-    font-size: 70%;
-
-  }
   .artist-5 {
-    .description{
-      padding: 1.1em 0.8em;
-      font-size: 65%;
-
+    .description {
+      padding: inherit;
     }
   }
-
 }
-// TODO: gör script att beräkna positionen för p.description
-@media (max-width: 768px) {
-  #title-line-up h2 {
-    padding: 2px;
-    font-size: 1.5em;
-  }
 
-  figure p.description {
-
-    padding: 1.2rem;
-    font-size: 80%;
-
-  }
-
-
-
-  figure p.icon-links a {
-
-    padding: 4px 8px;
-  }
-
-  figure figcaption {
-    padding: 20px 10px 20px 10px;
-    h2 {
-      padding: 5px 3px;
-      font-size: 1.2em;
-    }
-  }
-
+// iphone 7,8
+@media (max-width: 576px) {
   #flower-footer {
     #logo-bottom {
       #footer-contact-row {
@@ -464,32 +410,20 @@ figure {
         margin-top: 0;
       }
     }
-
   }
+  figure p.description {
+    font-size: 75%;
+  }
+
 }
 
-// really small screens
-@media (max-width: 568px) {
+// iphone 4,5
+@media (max-width: 374.98px) {
 
   figure p.description {
-
-    padding: 1em 1em 0.5em 1em;
     font-size: 66%;
 
   }
 
-  .artist-5 {
-    .description{
-      font-size: 62%;
-      margin-bottom: 1em;
-    }
-  }
 
-  figure figcaption {
-    padding: 20px 10px 20px 10px;
-    h2 {
-      padding: 5px 3px;
-      font-size: 1.1em;
-    }
-  }
 }

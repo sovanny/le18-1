@@ -63,9 +63,6 @@ figure {
     display: block;
     max-width: 100%;
     opacity: 1; }
-  figure h2 {
-    padding: 0.2rem 0px;
-    font-size: 1.6rem; }
   figure figcaption {
     -webkit-touch-callout: none;
     /* iOS Safari */
@@ -100,8 +97,7 @@ figure {
   figure p {
     margin: 0; }
   figure p {
-    letter-spacing: 1px;
-    font-size: 68.5%; }
+    letter-spacing: 1px; }
 
 /*---------------*/
 /***** Effect *****/
@@ -109,9 +105,9 @@ figure {
 figure figcaption {
   top: auto;
   bottom: 0;
-  padding: 1em;
-  height: 3.75em;
-  font-size: 1.25em;
+  padding: 1.25rem;
+  height: 4rem;
+  font-size: 1.25rem;
   color: #1F3437;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -119,16 +115,16 @@ figure figcaption {
   transform: translate3d(0, 100%, 0); }
 figure h2 {
   float: left;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 1.5rem; }
 figure p.icon-links a {
   float: right;
-  color: #0E664E;
-  font-size: 1.4em; }
+  color: #0E664E; }
 figure p.description {
   font-family: "Roboto Mono", monospace;
+  left: 0;
   position: absolute;
-  bottom: 5em;
-  padding: 1.4em;
+  padding: 0 1.4em;
   color: #fff;
   text-transform: none;
   font-size: 80%;
@@ -145,7 +141,9 @@ figure p.icon-links a {
   transform: translate3d(0, 200%, 0); }
 figure p.icon-links a {
   display: inline-block;
-  padding: 8px 8px; }
+  padding: 0 0.5rem;
+  margin-top: -0.1rem;
+  padding-bottom: 0.1rem; }
 figure:hover p.icon-links a:hover, figure:hover p.icon-links a:focus {
   color: #A0D1BB; }
 figure:hover p.description {
@@ -180,6 +178,12 @@ figure:hover p.icon-links a:first-child {
 .artist-1 {
   background: url("../img/Instagram-rutor-1.jpg");
   background-size: contain; }
+  .artist-1 figcaption {
+    padding: 1.325rem 1.25rem; }
+    .artist-1 figcaption h2 {
+      font-size: 1.35rem; }
+    .artist-1 figcaption p.icon-links a {
+      font-size: 1.15rem; }
 
 .artist-2 {
   background: url("../img/Instagram-rutor-2.jpg");
@@ -190,8 +194,7 @@ figure:hover p.icon-links a:first-child {
   background-size: contain; }
 
 .artist-5 .description {
-  font-size: 75%;
-  padding-bottom: 1em; }
+  padding: 0 0.8em; }
 
 .artist-6 {
   background: url("../img/Instagram-rutor-6.jpg");
@@ -257,65 +260,24 @@ figure:hover p.icon-links a:first-child {
         #flower-footer #logo-bottom #footer-contact-row a:hover, #flower-footer #logo-bottom #footer-contact-row a:focus {
           color: #9fd2ba; }
 
-/*************DESKTOP LAYOUT*************/
-@media (min-width: 768px) {
-  figure p.icon-links a {
-    padding: 5px 10px; } }
-/****Only on tablet******/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  figure p.description {
+    font-size: 66%; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .container {
     padding: 100px; }
 
-  figure p.description {
-    padding: 2em 4em 8em 4em; } }
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  figure figcaption {
-    padding: 20px 10px 20px 10px; }
-    figure figcaption h2 {
-      padding: 5px 3px;
-      font-size: 1.1em; }
-
-  figure p.description {
-    padding: 1.2em;
-    font-size: 70%; }
-
   .artist-5 .description {
-    padding: 1.1em 0.8em;
-    font-size: 65%; } }
-@media (max-width: 768px) {
-  #title-line-up h2 {
-    padding: 2px;
-    font-size: 1.5em; }
-
-  figure p.description {
-    padding: 1.2rem;
-    font-size: 80%; }
-
-  figure p.icon-links a {
-    padding: 4px 8px; }
-
-  figure figcaption {
-    padding: 20px 10px 20px 10px; }
-    figure figcaption h2 {
-      padding: 5px 3px;
-      font-size: 1.2em; }
-
+    padding: inherit; } }
+@media (max-width: 576px) {
   #flower-footer #logo-bottom #footer-contact-row {
     visibility: hidden;
-    margin-top: 0; } }
-@media (max-width: 568px) {
+    margin-top: 0; }
+
   figure p.description {
-    padding: 1em 1em 0.5em 1em;
-    font-size: 66%; }
-
-  .artist-5 .description {
-    font-size: 62%;
-    margin-bottom: 1em; }
-
-  figure figcaption {
-    padding: 20px 10px 20px 10px; }
-    figure figcaption h2 {
-      padding: 5px 3px;
-      font-size: 1.1em; } }
+    font-size: 75%; } }
+@media (max-width: 374.98px) {
+  figure p.description {
+    font-size: 66%; } }
 
 /*# sourceMappingURL=line-up.css.map */
