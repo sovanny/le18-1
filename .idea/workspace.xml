@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Blenda25399-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blenda.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css.map" afterPath="$PROJECT_DIR$/css/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.scss" afterPath="$PROJECT_DIR$/css/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.css" afterPath="$PROJECT_DIR$/css/line-up.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.css.map" afterPath="$PROJECT_DIR$/css/line-up.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.scss" afterPath="$PROJECT_DIR$/css/line-up.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-up-prep.html" afterPath="$PROJECT_DIR$/line-up-prep.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-up.html" afterPath="$PROJECT_DIR$/line-up.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="line-up.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="line-up.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/line-up.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="206" column="14" lean-forward="false" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
+            <state relative-caret-position="759">
+              <caret line="236" column="38" lean-forward="false" selection-start-line="236" selection-start-column="38" selection-end-line="236" selection-end-column="38" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -59,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="line-up.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="line-up.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/line-up.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -213,8 +203,8 @@
         <option value="$PROJECT_DIR$/line-up-prep.html" />
         <option value="$PROJECT_DIR$/css/index.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/line-up.html" />
         <option value="$PROJECT_DIR$/css/line-up.scss" />
+        <option value="$PROJECT_DIR$/line-up.html" />
       </list>
     </option>
   </component>
@@ -366,14 +356,7 @@
       <workItem from="1521481468523" duration="15629000" />
       <workItem from="1521549755952" duration="1238000" />
       <workItem from="1521576261601" duration="6000" />
-      <workItem from="1521644232917" duration="1977000" />
-    </task>
-    <task id="LOCAL-00036" summary="size sponslogo">
-      <created>1517824259432</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1517824259432</updated>
+      <workItem from="1521644232917" duration="2191000" />
     </task>
     <task id="LOCAL-00037" summary="add files">
       <created>1517838359167</created>
@@ -711,11 +694,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521499456369</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="blenda">
+      <created>1521803960311</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1521803960312</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260493000" />
+    <option name="totallyTimeSpent" value="260707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -747,7 +737,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove prices" />
     <MESSAGE value="fix small things" />
     <MESSAGE value="fix ticket button" />
     <MESSAGE value="pin favicon" />
@@ -772,7 +761,8 @@
     <MESSAGE value="toge bort :e i description" />
     <MESSAGE value="anton slider" />
     <MESSAGE value="fixat fontstorlekarna!" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixat fontstorlekarna!" />
+    <MESSAGE value="blenda" />
+    <option name="LAST_COMMIT_MESSAGE" value="blenda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1060,16 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/line-up.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="206" column="14" lean-forward="false" selection-start-line="206" selection-start-column="14" selection-end-line="206" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/line-up.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1092,6 +1072,16 @@
             <element signature="e#5716#5799#0" expanded="false" />
             <element signature="e#5812#5895#0" expanded="false" />
             <element signature="e#5912#6665#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/line-up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="236" column="38" lean-forward="false" selection-start-line="236" selection-start-column="38" selection-end-line="236" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
