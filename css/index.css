@@ -66,6 +66,22 @@ body {
     .carousel-item .martha-caption h3 {
       text-transform: uppercase;
       font-size: 3rem; }
+  .carousel-item .blenda-caption {
+    font-family: "Roboto Mono", monospace;
+    position: absolute;
+    bottom: 8%;
+    right: 45%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left; }
+    .carousel-item .blenda-caption h5 {
+      font-size: 7rem; }
+    .carousel-item .blenda-caption h3 {
+      text-transform: uppercase;
+      font-size: 4rem; }
 
 .container {
   padding: 4px 40px 27vw 40px;
@@ -184,12 +200,18 @@ body {
       font-size: 1rem; }
     .carousel-item .anton-caption h5 {
       font-size: 1rem; }
+  .carousel-item .blenda-caption {
+    display: block !important;
+    bottom: 10px; }
+    .carousel-item .blenda-caption h3 {
+      font-size: 1rem; }
+    .carousel-item .blenda-caption h5 {
+      font-size: 1rem; } }
+#partners h1 {
+  font-size: 2rem; }
 
-  #partners h1 {
-    font-size: 2rem; }
-
-  #flower-footer #logo-bottom #footer-contact-row {
-    visibility: hidden;
-    margin-top: 0; } }
+#flower-footer #logo-bottom #footer-contact-row {
+  visibility: hidden;
+  margin-top: 0; }
 
 /*# sourceMappingURL=index.css.map */

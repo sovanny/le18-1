@@ -3,6 +3,7 @@
 html, body {
   max-height: 100%;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -24,7 +25,7 @@ body {
 
     }
   }
-  .anton-caption{
+  .anton-caption {
     font-family: $robotomono;
     position: absolute;
     top: 13%;
@@ -65,7 +66,7 @@ body {
 
     }
   }
-  .martha-caption{
+  .martha-caption {
     font-family: $robotomono;
     position: absolute;
     top: 15%;
@@ -85,7 +86,26 @@ body {
       font-size: 3rem;
 
     }
+  }
+  .blenda-caption {
+    font-family: $robotomono;
+    position: absolute;
+    bottom: 8%;
+    right: 45%;
 
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    h5 {
+      font-size: 7rem;
+    }
+    h3 {
+      text-transform: uppercase;
+      font-size: 4rem;
+    }
   }
 }
 
@@ -113,7 +133,7 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-  h1{
+  h1 {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -236,19 +256,18 @@ body {
         font-size: 1rem;
       }
     }
-    .le-caption{
+    .le-caption {
       display: block !important;
       bottom: 15px;
 
-
-      h5{
+      h5 {
         font-size: 1rem;
       }
-      a{
+      a {
         display: none;
       }
     }
-    .martha-caption{
+    .martha-caption {
       display: block !important;
       bottom: 10px;
       h3 {
@@ -258,7 +277,7 @@ body {
         font-size: 1rem;
       }
     }
-    .anton-caption{
+    .anton-caption {
       display: block !important;
       top: 1%;
       h3 {
@@ -268,22 +287,34 @@ body {
         font-size: 1rem;
       }
     }
-
-  }
-
-  #partners h1{
-
-    font-size: 2rem;
-  }
-  #flower-footer {
-    #logo-bottom {
-      #footer-contact-row {
-        visibility: hidden;
-        margin-top: 0;
+    .blenda-caption {
+      display: block !important;
+      bottom: 10px;
+      h3 {
+        font-size: 1rem;
+      }
+      h5 {
+        font-size: 1rem;
       }
     }
-
   }
 
 }
+
+#partners h1 {
+
+  font-size: 2rem;
+}
+
+#flower-footer {
+  #logo-bottom {
+    #footer-contact-row {
+      visibility: hidden;
+      margin-top: 0;
+    }
+  }
+
+}
+
+
 

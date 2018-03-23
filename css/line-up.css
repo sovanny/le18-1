@@ -193,8 +193,15 @@ figure:hover p.icon-links a:first-child {
   background: url("../img/Instagram-rutor-3.jpg");
   background-size: contain; }
 
-.artist-5 .description {
-  padding: 0 0.8em; }
+.artist-4 {
+  background: url("../img/Instagram-rutor-4.jpg");
+  background-size: contain; }
+
+.artist-5 {
+  background: url("../img/Instagram-rutor-5.jpg");
+  background-size: contain; }
+  .artist-5 .description {
+    padding: 0 0.8em; }
 
 .artist-6 {
   background: url("../img/Instagram-rutor-6.jpg");
