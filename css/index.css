@@ -206,12 +206,13 @@ body {
     .carousel-item .blenda-caption h3 {
       font-size: 1rem; }
     .carousel-item .blenda-caption h5 {
-      font-size: 1rem; } }
-#partners h1 {
-  font-size: 2rem; }
+      font-size: 1rem; }
 
-#flower-footer #logo-bottom #footer-contact-row {
-  visibility: hidden;
-  margin-top: 0; }
+  #partners h1 {
+    font-size: 2rem; }
+
+  #flower-footer #logo-bottom #footer-contact-row {
+    visibility: hidden;
+    margin-top: 0; } }
 
 /*# sourceMappingURL=index.css.map */
