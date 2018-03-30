@@ -13,17 +13,10 @@ function resize() {
             var figureHeight = $(this).find('figure').outerHeight();
             var captionHeight = $(this).find('figcaption').outerHeight();
             var pDescHeight = $(this).find('.description').outerHeight();
-            console.log($(this).value)
-            console.log("figure")
-            console.log(figureHeight)
 
-            console.log("caption")
-            console.log(captionHeight)
-            console.log("desc")
-            console.log(pDescHeight)
 
             var bottom = (((figureHeight - captionHeight) - pDescHeight) / 2.0) + captionHeight;
-            console.log(bottom)
+
             $(this).find('.description').css("bottom", bottom);
         });
     });
