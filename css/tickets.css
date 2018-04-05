@@ -110,16 +110,6 @@ body {
 @keyframes sawtooth {
   100% {
     background-position: 1em 0; } }
-#flower-footer {
-  margin-top: -18%;
-  position: absolute;
-  width: 100%;
-  left: 0; }
-  #flower-footer #pattern {
-    position: absolute;
-    width: 100%;
-    margin-top: -18%; }
-
 #logo-bottom {
   position: absolute;
   width: 100%; }

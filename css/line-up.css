@@ -8,6 +8,9 @@ body {
   outline: 30px solid white;
   background: white; }
 
+#spotify-siderbar {
+  visibility: hidden; }
+
 #title-line-up {
   text-align: center;
   max-width: 700px;
@@ -231,42 +234,19 @@ figure:hover p.icon-links a:first-child {
   background: url("../img/Instagram-rutor-12.jpg");
   background-size: contain; }
 
-#flower-footer {
-  margin-top: -18%;
-  position: absolute;
-  width: 100%;
-  left: 0; }
-  #flower-footer #pattern {
-    position: absolute;
-    width: 100%;
-    margin-top: -18%; }
-  #flower-footer #logo-bottom {
-    position: absolute;
-    width: 100%; }
-    #flower-footer #logo-bottom img {
-      max-width: 25%;
-      display: block;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin: auto;
-      margin-top: 8.1vw; }
-    #flower-footer #logo-bottom #footer-contact-row {
-      max-width: 25%;
-      display: block;
-      position: absolute;
-      width: 8rem;
-      font-size: 2rem;
-      left: 0;
-      right: 0;
-      margin: auto;
-      margin-top: 19vw; }
-      #flower-footer #logo-bottom #footer-contact-row a {
-        display: inline-block;
-        color: black; }
-        #flower-footer #logo-bottom #footer-contact-row a:hover, #flower-footer #logo-bottom #footer-contact-row a:focus {
-          color: #9fd2ba; }
-
+@media (min-width: 1850px) {
+  #spotify-siderbar {
+    visibility: visible;
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    top: 60px;
+    text-align: center; }
+    #spotify-siderbar h3 {
+      font-family: "Roboto Mono", monospace;
+      font-weight: 500;
+      font-size: 1.2rem;
+      color: #0d664e; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   figure p.description {
     font-size: 66%; } }

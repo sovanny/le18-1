@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300, 400,600");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300, 400, 600");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500,700");
 #desktop-logo {
   display: none; }
@@ -48,6 +48,42 @@
     .navbar-nav .dropdown-menu a:hover {
       background-color: transparent;
       color: #ffdc30; }
+
+#flower-footer {
+  margin-top: -18%;
+  position: absolute;
+  width: 100%;
+  left: 0; }
+  #flower-footer #pattern {
+    position: absolute;
+    width: 100%;
+    margin-top: -18%; }
+  #flower-footer #logo-bottom {
+    position: absolute;
+    width: 100%; }
+    #flower-footer #logo-bottom img {
+      max-width: 25%;
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 8.1vw; }
+    #flower-footer #logo-bottom #footer-contact-row {
+      max-width: 25%;
+      display: block;
+      position: absolute;
+      width: 8rem;
+      font-size: 2rem;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 19vw; }
+      #flower-footer #logo-bottom #footer-contact-row a {
+        display: inline-block;
+        color: black; }
+        #flower-footer #logo-bottom #footer-contact-row a:hover, #flower-footer #logo-bottom #footer-contact-row a:focus {
+          color: #9fd2ba; }
 
 /*************DESKTOP LAYOUT*************/
 @media (min-width: 768px) {

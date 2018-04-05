@@ -18,64 +18,6 @@ body {
 
 
 
-#flower-footer {
-  margin-top: -18%;
-  position: absolute;
-  width: 100%;
-  left: 0;
-
-  #pattern {
-    position: absolute;
-    width: 100%;
-
-    margin-top: -18%;
-
-  }
-
-  #logo-bottom {
-    position: absolute;
-    width: 100%;
-
-    img {
-
-      max-width: 25%;
-      display: block;
-      position: absolute;
-
-      left: 0;
-      right: 0;
-
-      margin: auto;
-      margin-top: 8.1vw;
-    }
-    #footer-contact-row {
-
-      max-width: 25%;
-      display: block;
-      position: absolute;
-      width: 8rem;
-      font-size: 2rem;
-      a {
-        display: inline-block;
-        color: black;
-        &:hover,
-        &:focus {
-          color: $green-light;
-        }
-      }
-
-      left: 0;
-      right: 0;
-
-      margin: auto;
-      margin-top: 19vw;
-    }
-  }
-
-}
-
-
-
 
 @media (max-width: 767px) {
 
