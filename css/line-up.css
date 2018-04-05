@@ -9,7 +9,7 @@ body {
   background: white; }
 
 #spotify-siderbar {
-  visibility: hidden; }
+  display: none; }
 
 #title-line-up {
   text-align: center;
@@ -236,7 +236,7 @@ figure:hover p.icon-links a:first-child {
 
 @media (min-width: 1850px) {
   #spotify-siderbar {
-    visibility: visible;
+    display: inherit;
     width: 300px;
     height: 500px;
     position: fixed;

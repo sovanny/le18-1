@@ -15,7 +15,7 @@ body {
 }
 
 #spotify-siderbar {
-  visibility: hidden;
+  display: none;
 
 }
 
@@ -333,7 +333,7 @@ figure {
 @media (min-width: 1850px) {
 
   #spotify-siderbar {
-    visibility: visible;
+    display: inherit;
     width: 300px;
     height: 500px;
     position: fixed;
