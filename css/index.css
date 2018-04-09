@@ -123,14 +123,12 @@ body {
     font-family: "Roboto Mono", monospace;
     font-weight: 700;
     font-size: 1.75rem; }
-  #partners #sensus {
-    filter: invert(100%); }
-  #partners #liu {
+  #partners #sensus, #partners #liu, #partners #folkbladet {
     filter: invert(100%); }
   #partners #upplev, #partners #sensus, #partners #studief, #partners #hemkop {
     max-width: 90%;
     max-height: 90%; }
-  #partners #raa {
+  #partners #raa, #partners #nt {
     max-width: 70%;
     max-height: 70%; }
 

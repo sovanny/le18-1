@@ -163,10 +163,7 @@ body {
     font-size: 1.75rem;
   }
 
-  #sensus {
-    filter: invert(100%);
-  }
-  #liu {
+  #sensus , #liu, #folkbladet {
     filter: invert(100%);
   }
 
@@ -178,7 +175,7 @@ body {
     max-height: 90%;
   }
 
-  #raa {
+  #raa, #nt {
     max-width: 70%;
     max-height: 70%;
 
