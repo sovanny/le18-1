@@ -33,9 +33,9 @@ body {
     font-family: $robotomono;
     font-weight: 700;
     color: $bluegreen-darker;
-    /*margin-bottom: 120px;
-    font-size: 3rem;
-    color: white;
+    //margin-bottom: 120px;
+    font-size: 1.6rem;
+    /*color: white;
     font-family: $robotomono;
     font-weight: 700;
     background: #1e3437;
@@ -55,11 +55,13 @@ body {
     font-weight: 300;
   }
 
-
 }
 
-#festival-info{
+
+
+#festival-info {
   padding-top: 30px;
+
 }
 
 #contact-row {
@@ -107,9 +109,7 @@ body {
   #contact-row {
     margin: auto;
   }
-  h1 {
-    font-size: 2rem;
-  }
+
   p {
     font-size: 0.8rem;
   }

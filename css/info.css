@@ -19,9 +19,8 @@ body {
   font-family: "Roboto Mono", monospace;
   font-weight: 700;
   color: #1e3437;
-  /*margin-bottom: 120px;
-  font-size: 3rem;
-  color: white;
+  font-size: 1.6rem;
+  /*color: white;
   font-family: $robotomono;
   font-weight: 700;
   background: #1e3437;
@@ -66,9 +65,6 @@ body {
 
   #contact-row {
     margin: auto; }
-
-  h1 {
-    font-size: 2rem; }
 
   p {
     font-size: 0.8rem; } }
