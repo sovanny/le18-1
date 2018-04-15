@@ -201,6 +201,8 @@ figure:hover p.icon-links a:first-child {
 .artist-9 {
   background: url("../img/Instagram-rutor-9.jpg");
   background-size: contain; }
+  .artist-9 p.description {
+    padding: 1.2em; }
 
 .artist-10 {
   background: url("../img/Instagram-rutor-10.jpg");

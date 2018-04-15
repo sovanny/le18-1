@@ -38,7 +38,7 @@ body {
     color: #fff;
     text-align: right;
     h5 {
-      font-size: 5.3rem;
+      font-size: 5rem;
     }
     h3 {
       text-transform: uppercase;
@@ -46,47 +46,7 @@ body {
 
     }
   }
-  .agnes-caption {
-    font-family: $robotomono;
-    position: absolute;
-    right: 5%;
-    bottom: 5%;
-    left: 45%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: right;
-    h5 {
-      font-size: 4.7rem;
-    }
-    h3 {
-      text-transform: uppercase;
-      font-size: 3rem;
 
-    }
-  }
-  .martha-caption {
-    font-family: $robotomono;
-    position: absolute;
-    top: 15%;
-    right: 45%;
-    bottom: 20px;
-    left: 5%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left;
-    h5 {
-      font-size: 5.3rem;
-    }
-    h3 {
-      text-transform: uppercase;
-      font-size: 3rem;
-
-    }
-  }
   .blenda-caption {
     font-family: $robotomono;
     position: absolute;
@@ -106,6 +66,23 @@ body {
       text-transform: uppercase;
       font-size: 4rem;
     }
+  }
+  .melanie-caption {
+    font-family: $robotomono;
+    position: absolute;
+    top: 26%;
+    right: 60%;
+
+    left: 4%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    h5 {
+      font-size: 5.6rem;
+    }
+
   }
 }
 
@@ -198,16 +175,7 @@ body {
 
   .carousel-item {
 
-    .agnes-caption {
-      display: block !important;
-      bottom: 10px;
-      h3 {
-        font-size: 1rem;
-      }
-      h5 {
-        font-size: 1rem;
-      }
-    }
+
     .le-caption {
       display: block !important;
       bottom: 15px;
@@ -219,16 +187,7 @@ body {
         display: none;
       }
     }
-    .martha-caption {
-      display: block !important;
-      bottom: 10px;
-      h3 {
-        font-size: 1rem;
-      }
-      h5 {
-        font-size: 1rem;
-      }
-    }
+
     .anton-caption {
       display: block !important;
       top: 1%;
@@ -247,6 +206,14 @@ body {
       }
       h5 {
         font-size: 1rem;
+      }
+    }
+    .melanie-caption {
+      display: block !important;
+
+
+      h5 {
+        font-size: 1.5rem;
       }
     }
   }

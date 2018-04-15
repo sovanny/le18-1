@@ -29,41 +29,8 @@ body {
     color: #fff;
     text-align: right; }
     .carousel-item .anton-caption h5 {
-      font-size: 5.3rem; }
+      font-size: 5rem; }
     .carousel-item .anton-caption h3 {
-      text-transform: uppercase;
-      font-size: 3rem; }
-  .carousel-item .agnes-caption {
-    font-family: "Roboto Mono", monospace;
-    position: absolute;
-    right: 5%;
-    bottom: 5%;
-    left: 45%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: right; }
-    .carousel-item .agnes-caption h5 {
-      font-size: 4.7rem; }
-    .carousel-item .agnes-caption h3 {
-      text-transform: uppercase;
-      font-size: 3rem; }
-  .carousel-item .martha-caption {
-    font-family: "Roboto Mono", monospace;
-    position: absolute;
-    top: 15%;
-    right: 45%;
-    bottom: 20px;
-    left: 5%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left; }
-    .carousel-item .martha-caption h5 {
-      font-size: 5.3rem; }
-    .carousel-item .martha-caption h3 {
       text-transform: uppercase;
       font-size: 3rem; }
   .carousel-item .blenda-caption {
@@ -82,6 +49,19 @@ body {
     .carousel-item .blenda-caption h3 {
       text-transform: uppercase;
       font-size: 4rem; }
+  .carousel-item .melanie-caption {
+    font-family: "Roboto Mono", monospace;
+    position: absolute;
+    top: 26%;
+    right: 60%;
+    left: 4%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left; }
+    .carousel-item .melanie-caption h5 {
+      font-size: 5.6rem; }
 
 .container {
   padding: 4px 40px 18vw 40px;
@@ -137,13 +117,6 @@ body {
   .partners h1 {
     font-size: 3rem; } }
 @media (max-width: 767px) {
-  .carousel-item .agnes-caption {
-    display: block !important;
-    bottom: 10px; }
-    .carousel-item .agnes-caption h3 {
-      font-size: 1rem; }
-    .carousel-item .agnes-caption h5 {
-      font-size: 1rem; }
   .carousel-item .le-caption {
     display: block !important;
     bottom: 15px; }
@@ -151,13 +124,6 @@ body {
       font-size: 1rem; }
     .carousel-item .le-caption a {
       display: none; }
-  .carousel-item .martha-caption {
-    display: block !important;
-    bottom: 10px; }
-    .carousel-item .martha-caption h3 {
-      font-size: 1rem; }
-    .carousel-item .martha-caption h5 {
-      font-size: 1rem; }
   .carousel-item .anton-caption {
     display: block !important;
     top: 1%; }
@@ -172,6 +138,10 @@ body {
       font-size: 1rem; }
     .carousel-item .blenda-caption h5 {
       font-size: 1rem; }
+  .carousel-item .melanie-caption {
+    display: block !important; }
+    .carousel-item .melanie-caption h5 {
+      font-size: 1.5rem; }
 
   #partners h1 {
     font-size: 1.6rem; }
