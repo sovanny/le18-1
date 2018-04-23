@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe949c2-7c7a-46fc-9e87-c39b86572153" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Location-East_Slider-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DSC_0306.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Line-up bild.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Location-East_Slider-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Location-East_Slider-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/donika.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/emelie.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css.map" afterPath="$PROJECT_DIR$/css/index.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.scss" afterPath="$PROJECT_DIR$/css/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.css" afterPath="$PROJECT_DIR$/css/line-up.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.css.map" afterPath="$PROJECT_DIR$/css/line-up.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/line-up.scss" afterPath="$PROJECT_DIR$/css/line-up.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/line-up.html" afterPath="$PROJECT_DIR$/line-up.html" />
     </list>
@@ -28,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="680">
+              <caret line="165" column="58" lean-forward="false" selection-start-line="165" selection-start-column="58" selection-end-line="165" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -38,11 +40,9 @@
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-              <folding>
-                <element signature="e#1397#2376#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="341">
+              <caret line="161" column="6" lean-forward="false" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,7 +60,7 @@
       <file leaf-file-name="shared-styles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/shared-styles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
+            <state relative-caret-position="2363">
               <caret line="139" column="4" lean-forward="false" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
               <folding />
             </state>
@@ -70,8 +70,8 @@
       <file leaf-file-name="line-up.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/line-up.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="267" column="24" lean-forward="true" selection-start-line="267" selection-start-column="24" selection-end-line="267" selection-end-column="38" />
+            <state relative-caret-position="555">
+              <caret line="368" column="45" lean-forward="true" selection-start-line="368" selection-start-column="45" selection-end-line="368" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -148,7 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fon</find>
       <find>75</find>
       <find>artis</find>
       <find>font-we</find>
@@ -178,6 +177,7 @@
       <find>width</find>
       <find>font-size</find>
       <find>z-in</find>
+      <find>donika</find>
     </findStrings>
     <replaceStrings>
       <replace>vann</replace>
@@ -240,11 +240,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="23" />
-    <option name="y" value="84" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="49" />
+    <option name="y" value="34" />
+    <option name="width" value="1713" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -262,7 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,7 +325,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,14 +394,8 @@
       <workItem from="1523307378465" duration="104000" />
       <workItem from="1523526835652" duration="8932000" />
       <workItem from="1523551081829" duration="1000" />
-      <workItem from="1523820773078" duration="1273000" />
-    </task>
-    <task id="LOCAL-00048" summary="footer">
-      <created>1518094891989</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1518094891989</updated>
+      <workItem from="1523820773078" duration="1887000" />
+      <workItem from="1524221774188" duration="4102000" />
     </task>
     <task id="LOCAL-00049" summary="footer">
       <created>1518095933532</created>
@@ -739,17 +733,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523535120885</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="melanie">
+      <created>1523822060246</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1523822060253</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291923000" />
+    <option name="totallyTimeSpent" value="296639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="49" y="34" width="1713" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12135417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10194461" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.52916664" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -775,7 +776,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cursor" />
     <MESSAGE value="priser" />
     <MESSAGE value="new button" />
     <MESSAGE value="info" />
@@ -800,7 +800,8 @@
     <MESSAGE value="display none fix" />
     <MESSAGE value="loggor" />
     <MESSAGE value="fix navbar size" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix navbar size" />
+    <MESSAGE value="melanie" />
+    <option name="LAST_COMMIT_MESSAGE" value="melanie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -925,13 +926,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/info.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/line-up-17.css">
@@ -1081,13 +1082,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="195" column="14" lean-forward="false" selection-start-line="169" selection-start-column="8" selection-end-line="195" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/shared-styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="2363">
           <caret line="139" column="4" lean-forward="false" selection-start-line="139" selection-start-column="4" selection-end-line="139" selection-end-column="4" />
           <folding />
         </state>
@@ -1095,27 +1095,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/line-up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="267" column="24" lean-forward="true" selection-start-line="267" selection-start-column="24" selection-end-line="267" selection-end-column="38" />
+        <state relative-caret-position="555">
+          <caret line="368" column="45" lean-forward="true" selection-start-line="368" selection-start-column="45" selection-end-line="368" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="680">
+          <caret line="165" column="58" lean-forward="false" selection-start-line="165" selection-start-column="58" selection-end-line="165" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="82" column="20" lean-forward="false" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-          <folding>
-            <element signature="e#1397#2376#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="341">
+          <caret line="161" column="6" lean-forward="false" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

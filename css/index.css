@@ -16,21 +16,20 @@ body {
   .carousel-item .le-caption a {
     font-size: 2rem;
     color: #24b2a4; }
-  .carousel-item .anton-caption {
+  .carousel-item .donika-caption {
     font-family: "Roboto Mono", monospace;
     position: absolute;
-    top: 13%;
+    bottom: 25%;
     left: 50%;
-    bottom: 20px;
     right: 4%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
     text-align: right; }
-    .carousel-item .anton-caption h5 {
-      font-size: 5rem; }
-    .carousel-item .anton-caption h3 {
+    .carousel-item .donika-caption h5 {
+      font-size: 6rem; }
+    .carousel-item .donika-caption h3 {
       text-transform: uppercase;
       font-size: 3rem; }
   .carousel-item .blenda-caption {
@@ -124,12 +123,11 @@ body {
       font-size: 1rem; }
     .carousel-item .le-caption a {
       display: none; }
-  .carousel-item .anton-caption {
-    display: block !important;
-    top: 1%; }
-    .carousel-item .anton-caption h3 {
+  .carousel-item .donika-caption {
+    display: block !important; }
+    .carousel-item .donika-caption h3 {
       font-size: 1rem; }
-    .carousel-item .anton-caption h5 {
+    .carousel-item .donika-caption h5 {
       font-size: 1rem; }
   .carousel-item .blenda-caption {
     display: block !important;

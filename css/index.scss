@@ -25,12 +25,12 @@ body {
 
     }
   }
-  .anton-caption {
+  .donika-caption {
     font-family: $robotomono;
     position: absolute;
-    top: 13%;
+    bottom: 25%;
     left: 50%;
-    bottom: 20px;
+
     right: 4%;
     z-index: 10;
     padding-top: 20px;
@@ -38,7 +38,7 @@ body {
     color: #fff;
     text-align: right;
     h5 {
-      font-size: 5rem;
+      font-size: 6rem;
     }
     h3 {
       text-transform: uppercase;
@@ -157,6 +157,11 @@ body {
     max-height: 70%;
 
   }
+  #heim{
+
+    //width: 120px;
+
+  }
 }
 
 /*************DESKTOP LAYOUT*************/
@@ -188,9 +193,9 @@ body {
       }
     }
 
-    .anton-caption {
+    .donika-caption {
       display: block !important;
-      top: 1%;
+      //top: 1%;
       h3 {
         font-size: 1rem;
       }
