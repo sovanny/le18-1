@@ -223,6 +223,17 @@ figure:hover p.icon-links a:first-child {
 .artist-12 {
   background: url("../img/Instagram-rutor-12.jpg");
   background-size: contain; }
+  .artist-12 #klubb-caption {
+    height: 6.75rem; }
+    .artist-12 #klubb-caption .icon-links {
+      text-align: right; }
+      .artist-12 #klubb-caption .icon-links a {
+        float: none;
+        position: relative; }
+    .artist-12 #klubb-caption #republik-caption h2 {
+      padding-top: 0.75rem; }
+    .artist-12 #klubb-caption #republik-caption .icon-links a {
+      padding-top: 0.75rem; }
 
 @media (min-width: 1735px) {
   #spotify-siderbar-large-screens {

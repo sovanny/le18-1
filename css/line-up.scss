@@ -47,7 +47,7 @@ body {
       transform: translateY(-40%);
     }
   }
-  .listen-text{
+  .listen-text {
     font-size: 3rem;
     position: relative;
     top: 25%;
@@ -140,7 +140,9 @@ figure {
     transition: transform 0.35s;
     -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
+
   }
+
   h2 {
     float: left;
     display: inline-block;
@@ -317,6 +319,34 @@ figure {
 .artist-12 {
   background: url("../img/Instagram-rutor-12.jpg");
   background-size: contain;
+  #klubb-caption {
+    height: 6.75rem;
+    .icon-links {
+
+      text-align: right;
+
+      a {
+
+        float: none;
+
+        position: relative;
+      }
+    }
+
+    #din-mamma-caption {
+
+    }
+    #republik-caption {
+
+      h2 {
+        padding-top: 0.75rem;
+      }
+      .icon-links a {
+        padding-top: 0.75rem;
+        //transform: none;
+      }
+    }
+  }
 }
 
 @media (min-width: 1735px) {
@@ -340,14 +370,17 @@ figure {
 
 }
 
-#spotify-medium { display: none}
+#spotify-medium {
+  display: none
+}
+
 // medium devices
 @media (min-width: 1199.98px) and (max-width: 1734px) {
 
-  #spotify-medium{
+  #spotify-medium {
     display: flex;
 
-    iframe{
+    iframe {
       box-sizing: border-box;
       padding: 6px;
       width: 100%;
@@ -411,8 +444,6 @@ figure {
     padding: 4px 4px 30vw 4px;
   }
 
-
-
 }
 
 // iphone 4,5
@@ -422,7 +453,7 @@ figure {
     font-size: 66%;
 
   }
-  iframe{
+  iframe {
     height: 300px;
   }
 
