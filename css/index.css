@@ -8,85 +8,33 @@ body {
   font-weight: 300;
   background: #f7f7f7; }
 
-.carousel-item {
-  max-height: 90vh; }
-  .carousel-item .le-caption h5 {
-    font-size: 3rem;
-    font-family: "Roboto Mono", monospace; }
-  .carousel-item .le-caption a {
-    font-size: 2rem;
-    color: #24b2a4; }
-  .carousel-item .donika-caption {
-    font-family: "Roboto Mono", monospace;
+.header {
+  background-image: url("../img/ny-header.jpg");
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 0;
+  height: 35vw;
+  background-position: center;
+  position: relative; }
+  .header .le-caption {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
     position: absolute;
-    bottom: 25%;
-    left: 50%;
-    right: 4%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: right; }
-    .carousel-item .donika-caption h5 {
-      font-size: 6rem; }
-    .carousel-item .donika-caption h3 {
-      text-transform: uppercase;
-      font-size: 3rem; }
-  .carousel-item .blenda-caption {
-    font-family: "Roboto Mono", monospace;
-    position: absolute;
-    bottom: 8%;
-    right: 45%;
-    left: 5%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left; }
-    .carousel-item .blenda-caption h5 {
-      font-size: 7rem; }
-    .carousel-item .blenda-caption h3 {
-      text-transform: uppercase;
-      font-size: 4rem; }
-  .carousel-item .melanie-caption {
-    font-family: "Roboto Mono", monospace;
-    position: absolute;
-    top: 26%;
-    right: 60%;
-    left: 4%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left; }
-    .carousel-item .melanie-caption h5 {
-      font-size: 5.6rem; }
+    margin: auto;
+    bottom: 15vw; }
+    .header .le-caption h1 {
+      font-size: 3rem;
+      font-family: "Roboto Mono", monospace; }
+    .header .le-caption h2 {
+      font-size: 2rem;
+      color: #1e3437;
+      font-family: "Roboto Mono", monospace;
+      font-weight: 400; }
 
 .container {
   padding: 4px 40px 18vw 40px;
   background: white; }
-
-#countdown {
-  width: 100%;
-  font-size: 3.5rem;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  color: white;
-  padding: 10px;
-  margin: auto;
-  margin-bottom: 25px; }
-  #countdown #cd-color {
-    background-color: #ffdc30;
-    max-width: 560px;
-    margin: auto; }
-  #countdown p {
-    display: inline; }
-  #countdown .cd-numbers {
-    min-width: 70px;
-    min-height: 80px;
-    display: inline-block;
-    text-align: right; }
 
 #partners {
   max-width: 900px;
@@ -138,36 +86,15 @@ body {
   .partners h1 {
     font-size: 3rem; } }
 @media (max-width: 767px) {
-  #countdown {
-    font-size: 1.8rem; }
-    #countdown .cd-numbers {
-      min-width: 32px;
-      min-height: 40px; }
-
-  .carousel-item .le-caption {
-    display: block !important;
-    bottom: 15px; }
-    .carousel-item .le-caption h5 {
-      font-size: 1rem; }
-    .carousel-item .le-caption a {
-      display: none; }
-  .carousel-item .donika-caption {
-    display: block !important; }
-    .carousel-item .donika-caption h3 {
-      font-size: 1rem; }
-    .carousel-item .donika-caption h5 {
-      font-size: 1rem; }
-  .carousel-item .blenda-caption {
-    display: block !important;
-    bottom: 10px; }
-    .carousel-item .blenda-caption h3 {
-      font-size: 1rem; }
-    .carousel-item .blenda-caption h5 {
-      font-size: 1rem; }
-  .carousel-item .melanie-caption {
-    display: block !important; }
-    .carousel-item .melanie-caption h5 {
-      font-size: 1.5rem; }
+  .header {
+    height: 45vw; }
+    .header .le-caption {
+      padding: 5px;
+      bottom: 5px; }
+      .header .le-caption h1 {
+        font-size: 1.5rem; }
+      .header .le-caption h2 {
+        font-size: 1.1rem; }
 
   #partners h1 {
     font-size: 1.6rem; }

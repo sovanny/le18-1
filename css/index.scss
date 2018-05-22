@@ -11,78 +11,34 @@ body {
   background: #f7f7f7;
 }
 
-.carousel-item {
-  max-height: 90vh;
+.header {
+  background-image: url("../img/ny-header.jpg");
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 0;
+  height: 35vw;
+  background-position: center;
+  position: relative;
 
   .le-caption {
-    h5 {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    bottom: 15vw;
+    h1 {
       font-size: 3rem;
       font-family: $robotomono;
+
     }
-    a {
+    h2 {
       font-size: 2rem;
-      color: $bluegreen-medium;
+      color: $bluegreen-darker;
+      font-family: $robotomono;
+      font-weight: 400;
 
     }
-  }
-  .donika-caption {
-    font-family: $robotomono;
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-
-    right: 4%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: right;
-    h5 {
-      font-size: 6rem;
-    }
-    h3 {
-      text-transform: uppercase;
-      font-size: 3rem;
-
-    }
-  }
-
-  .blenda-caption {
-    font-family: $robotomono;
-    position: absolute;
-    bottom: 8%;
-    right: 45%;
-
-    left: 5%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left;
-    h5 {
-      font-size: 7rem;
-    }
-    h3 {
-      text-transform: uppercase;
-      font-size: 4rem;
-    }
-  }
-  .melanie-caption {
-    font-family: $robotomono;
-    position: absolute;
-    top: 26%;
-    right: 60%;
-
-    left: 4%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left;
-    h5 {
-      font-size: 5.6rem;
-    }
-
   }
 }
 
@@ -93,37 +49,6 @@ body {
   background: white;
 
 }
-
-#countdown{
-
-  width: 100%;
-  font-size: 3.5rem;
-  text-align: center;
-  #cd-color{
-    background-color: $yellow;
-    max-width: 560px;
-    margin: auto;
-  }
-  p{
-    display: inline;
-  }
-  .cd-numbers{
-    min-width: 70px;
-    min-height: 80px;
-    display: inline-block;
-    text-align: right;
-  }
-
-
-  font-family: $poppins;
-  font-weight: 500;
-  color: white;
-  padding: 10px;
-  margin: auto;
-  margin-bottom: 25px;
-}
-
-
 
 #partners {
   max-width: 900px;
@@ -171,7 +96,7 @@ body {
     font-size: 1.75rem;
   }
 
-  #sensus , #liu, #folkbladet {
+  #sensus, #liu, #folkbladet {
     filter: invert(100%);
   }
 
@@ -188,7 +113,7 @@ body {
     max-height: 70%;
 
   }
-  #heim{
+  #heim {
 
     //width: 120px;
 
@@ -208,56 +133,18 @@ body {
 }
 
 @media (max-width: 767px) {
-  #countdown {
 
-    font-size: 1.8rem;
-    .cd-numbers {
-      min-width: 32px;
-      min-height: 40px;
-    }
-  }
-
-  .carousel-item {
-
-
+  .header {
+    height: 45vw;
     .le-caption {
-      display: block !important;
-      bottom: 15px;
 
-      h5 {
-        font-size: 1rem;
-      }
-      a {
-        display: none;
-      }
-    }
-
-    .donika-caption {
-      display: block !important;
-      //top: 1%;
-      h3 {
-        font-size: 1rem;
-      }
-      h5 {
-        font-size: 1rem;
-      }
-    }
-    .blenda-caption {
-      display: block !important;
-      bottom: 10px;
-      h3 {
-        font-size: 1rem;
-      }
-      h5 {
-        font-size: 1rem;
-      }
-    }
-    .melanie-caption {
-      display: block !important;
-
-
-      h5 {
+      padding: 5px;
+      bottom: 5px;
+      h1 {
         font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.1rem;
       }
     }
   }
